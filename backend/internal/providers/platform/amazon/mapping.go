@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	platformp "github.com/trademind-ai/trademind/backend/internal/providers/platform"
+	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
 )
 
 // MapAmazonOrder converts one Amazon order + items to PlatformOrder (Amazon types only in this package).

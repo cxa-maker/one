@@ -847,7 +847,7 @@ export default function SecuritySettingsPage() {
 
           <ProCard variant="outlined" title="回调签名校验" className="tm-system-settings__panel" style={{ marginTop: 16 }}>
             <Paragraph type="secondary" style={{ marginBottom: 16, fontSize: 13 }}>
-              用于验证外部系统向贸灵发起的运维类回调请求，与告警通知中的回调密钥相互独立。
+              用于验证外部系统向嘉乐OZON——AI发起的运维类回调请求，与告警通知中的回调密钥相互独立。
             </Paragraph>
             <Row gutter={[24, 0]}>
               <Col xs={24} md={14} lg={12}>

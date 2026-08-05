@@ -3,7 +3,7 @@ package douyinruntime
 import (
 	"context"
 
-	douyinmetrics "github.com/trademind-ai/trademind/backend/internal/metrics/douyin"
+	douyinmetrics "github.com/cxa-maker/one/backend/internal/metrics/douyin"
 )
 
 // MetricsSummaryDTO exposes rolling 24h metrics for the runtime page.

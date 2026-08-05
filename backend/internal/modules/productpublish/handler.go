@@ -11,12 +11,12 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationlog"
-	"github.com/trademind-ai/trademind/backend/internal/modules/productcheck"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/adminperm"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/ctxkey"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/response"
-	platformp "github.com/trademind-ai/trademind/backend/internal/providers/platform"
+	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
+	"github.com/cxa-maker/one/backend/internal/modules/productcheck"
+	"github.com/cxa-maker/one/backend/internal/pkg/adminperm"
+	"github.com/cxa-maker/one/backend/internal/pkg/ctxkey"
+	"github.com/cxa-maker/one/backend/internal/pkg/response"
+	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
 	"gorm.io/gorm"
 )
 

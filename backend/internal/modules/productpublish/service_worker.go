@@ -11,9 +11,9 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationlog"
-	"github.com/trademind-ai/trademind/backend/internal/modules/product"
-	platformp "github.com/trademind-ai/trademind/backend/internal/providers/platform"
+	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
+	"github.com/cxa-maker/one/backend/internal/modules/product"
+	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
 	"gorm.io/datatypes"
 	"gorm.io/gorm"
 )

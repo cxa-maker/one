@@ -146,7 +146,7 @@ if (issues.length === 0) {
       P7V2_PERF_TENANT_ADMIN_PASSWORD: perfPasswordForRole('tenant_admin', envCfg),
       P7V2_PERF_OPERATOR_PASSWORD: perfPasswordForRole('operator', envCfg),
       P7V2_PERF_READONLY_PASSWORD: perfPasswordForRole('readonly', envCfg),
-      P7V2_WEBHOOK_TEST_SECRET: envCfg.P7V2_WEBHOOK_TEST_SECRET || 'trademind-internal-test-webhook-secret',
+      P7V2_WEBHOOK_TEST_SECRET: envCfg.P7V2_WEBHOOK_TEST_SECRET || 'jiale-ozon-ai-internal-test-webhook-secret',
     };
     const timeoutMs =
       kind === 'soak' ? 50 * 60 * 1000 : kind === 'smoke' ? 5 * 60 * 1000 : kind === 'diagnostic' ? 8 * 60 * 1000 : 40 * 60 * 1000;

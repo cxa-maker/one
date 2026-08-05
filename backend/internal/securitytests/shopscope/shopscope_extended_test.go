@@ -4,14 +4,14 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/modules/customerchat"
-	"github.com/trademind-ai/trademind/backend/internal/modules/exportmod"
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationlog"
-	"github.com/trademind-ai/trademind/backend/internal/modules/order"
-	"github.com/trademind-ai/trademind/backend/internal/modules/product"
-	"github.com/trademind-ai/trademind/backend/internal/modules/productpublish"
-	"github.com/trademind-ai/trademind/backend/internal/modules/shop"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/adminperm"
+	"github.com/cxa-maker/one/backend/internal/modules/customerchat"
+	"github.com/cxa-maker/one/backend/internal/modules/exportmod"
+	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
+	"github.com/cxa-maker/one/backend/internal/modules/order"
+	"github.com/cxa-maker/one/backend/internal/modules/product"
+	"github.com/cxa-maker/one/backend/internal/modules/productpublish"
+	"github.com/cxa-maker/one/backend/internal/modules/shop"
+	"github.com/cxa-maker/one/backend/internal/pkg/adminperm"
 	"gorm.io/gorm"
 )
 

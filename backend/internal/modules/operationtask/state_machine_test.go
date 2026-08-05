@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationtask"
+	"github.com/cxa-maker/one/backend/internal/modules/operationtask"
 )
 
 func TestTaskStateMachineCanonicalTransitions(t *testing.T) {

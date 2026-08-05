@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/trademind-ai/trademind/backend/internal/pkg/httpclient"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/providerlimit"
+	"github.com/cxa-maker/one/backend/internal/pkg/httpclient"
+	"github.com/cxa-maker/one/backend/internal/pkg/providerlimit"
 )
 
 func limitedAIHTTPClient(timeout time.Duration) *http.Client {

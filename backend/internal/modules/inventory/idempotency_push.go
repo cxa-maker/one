@@ -7,7 +7,7 @@ import (
 	"strconv"
 
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/modules/idempotency"
+	"github.com/cxa-maker/one/backend/internal/modules/idempotency"
 )
 
 const errInventoryPushInProgress = "INVENTORY_PUSH_IN_PROGRESS"

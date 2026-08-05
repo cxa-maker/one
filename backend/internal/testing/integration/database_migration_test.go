@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/trademind-ai/trademind/backend/internal/database"
-	"github.com/trademind-ai/trademind/backend/internal/testing/safeenv"
+	"github.com/cxa-maker/one/backend/internal/database"
+	"github.com/cxa-maker/one/backend/internal/testing/safeenv"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )

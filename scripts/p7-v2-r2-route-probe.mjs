@@ -34,7 +34,7 @@ const tokens = {
 
 const probes = routes.map((route) => {
   if (route.route === 'Webhook Ingestion') {
-    const secret = env.P7V2_WEBHOOK_TEST_SECRET || 'trademind-internal-test-webhook-secret';
+    const secret = env.P7V2_WEBHOOK_TEST_SECRET || 'jiale-ozon-ai-internal-test-webhook-secret';
     const body = JSON.stringify({ eventId: 'p7v2-route-probe-1' });
     const statusCode = probeSignedWebhook(baseUrl, route.path, secret, body);
     return {

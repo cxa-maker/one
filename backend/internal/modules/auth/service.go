@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/trademind-ai/trademind/backend/internal/config"
-	"github.com/trademind-ai/trademind/backend/internal/modules/admin"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/metrics"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/p7diag"
+	"github.com/cxa-maker/one/backend/internal/config"
+	"github.com/cxa-maker/one/backend/internal/modules/admin"
+	"github.com/cxa-maker/one/backend/internal/pkg/metrics"
+	"github.com/cxa-maker/one/backend/internal/pkg/p7diag"
 	"golang.org/x/crypto/bcrypt"
 	"gorm.io/gorm"
 )

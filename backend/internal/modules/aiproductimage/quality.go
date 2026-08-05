@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/imagetask"
+	"github.com/cxa-maker/one/backend/internal/modules/imagetask"
 )
 
 func warningsFromScoreJSON(raw json.RawMessage) []QualityWarning {

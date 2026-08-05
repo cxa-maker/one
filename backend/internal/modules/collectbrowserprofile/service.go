@@ -13,8 +13,8 @@ import (
 	"github.com/google/uuid"
 	"gorm.io/gorm"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationlog"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/collectdomain"
+	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
+	"github.com/cxa-maker/one/backend/internal/pkg/collectdomain"
 )
 
 var (

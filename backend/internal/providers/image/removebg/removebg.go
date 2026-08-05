@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/trademind-ai/trademind/backend/internal/pkg/httppublic"
+	"github.com/cxa-maker/one/backend/internal/pkg/httppublic"
 )
 
 const maxSourceBytes = 32 << 20

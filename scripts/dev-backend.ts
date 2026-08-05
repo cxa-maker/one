@@ -27,7 +27,7 @@ async function main(): Promise<void> {
     reject: false,
     env: {
       ...process.env,
-      TRADEMIND_REPO_ROOT: repoRoot,
+      JIALE_OZON_AI_REPO_ROOT: repoRoot,
     },
   });
 

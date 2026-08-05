@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/trademind-ai/trademind/backend/internal/config"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/authutil"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/p7diag"
+	"github.com/cxa-maker/one/backend/internal/config"
+	"github.com/cxa-maker/one/backend/internal/pkg/authutil"
+	"github.com/cxa-maker/one/backend/internal/pkg/p7diag"
 	"gorm.io/gorm"
 )
 

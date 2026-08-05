@@ -14,14 +14,14 @@ import (
 	"gorm.io/datatypes"
 	"gorm.io/gorm"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/collectbrowserprofile"
-	"github.com/trademind-ai/trademind/backend/internal/modules/collectrule"
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationlog"
-	"github.com/trademind-ai/trademind/backend/internal/modules/product"
-	"github.com/trademind-ai/trademind/backend/internal/modules/settings"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/ctxkey"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/tasklease"
-	"github.com/trademind-ai/trademind/backend/internal/rdb"
+	"github.com/cxa-maker/one/backend/internal/modules/collectbrowserprofile"
+	"github.com/cxa-maker/one/backend/internal/modules/collectrule"
+	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
+	"github.com/cxa-maker/one/backend/internal/modules/product"
+	"github.com/cxa-maker/one/backend/internal/modules/settings"
+	"github.com/cxa-maker/one/backend/internal/pkg/ctxkey"
+	"github.com/cxa-maker/one/backend/internal/pkg/tasklease"
+	"github.com/cxa-maker/one/backend/internal/rdb"
 )
 
 // Service orchestrates collect tasks and persists results via product drafts.

@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	douyinshop "github.com/trademind-ai/trademind/backend/internal/providers/platform/douyinshop"
+	douyinshop "github.com/cxa-maker/one/backend/internal/providers/platform/douyinshop"
 )
 
 func TestRetryAfterSeconds_NumericHeader(t *testing.T) {

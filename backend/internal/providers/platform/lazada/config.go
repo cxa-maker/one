@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	platformp "github.com/trademind-ai/trademind/backend/internal/providers/platform"
+	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
 )
 
 // RuntimeConfig holds merged Lazada Open Platform + endpoint settings (no logging).

@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/trademind-ai/trademind/backend/internal/pkg/safefields"
+	"github.com/cxa-maker/one/backend/internal/pkg/safefields"
 )
 
 // Config holds structured logger settings.
@@ -78,7 +78,7 @@ func Default() Logger {
 		Format:         "console",
 		Level:          "debug",
 		MaxFieldLength: 2048,
-		Service:        "trademind-api",
+		Service:        "jiale-ozon-ai-api",
 		Environment:    "development",
 		FailSafe:       true,
 	})

@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/glebarez/sqlite"
-	"github.com/trademind-ai/trademind/backend/internal/config"
+	"github.com/cxa-maker/one/backend/internal/config"
 	"gorm.io/gorm"
 )
 

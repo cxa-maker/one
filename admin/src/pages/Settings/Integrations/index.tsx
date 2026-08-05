@@ -206,7 +206,7 @@ export default function IntegrationsHubPage() {
         type="info"
         showIcon
         style={{ marginBottom: 16 }}
-        message="贸灵不提供也不内置任何第三方密钥"
+        message="嘉乐OZON——AI不提供也不内置任何第三方密钥"
         description={
           <>
             请自行在各开放平台、云厂商、模型供应商处注册应用并获取凭据；仅在后台填写后由服务端 AES-GCM 加密入库。前端不会直连

@@ -69,7 +69,7 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Install Chromium
-        run: pnpm --filter @trademind/admin exec playwright install --with-deps chromium
+        run: pnpm --filter @jiale-ozon-ai/admin exec playwright install --with-deps chromium
 
       - name: Check user-visible copy
         run: pnpm check:ui-copy --strict

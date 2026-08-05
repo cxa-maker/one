@@ -12,13 +12,13 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/config"
-	"github.com/trademind-ai/trademind/backend/internal/database"
-	"github.com/trademind-ai/trademind/backend/internal/encrypt"
-	"github.com/trademind-ai/trademind/backend/internal/modules/backup"
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationlog"
-	"github.com/trademind-ai/trademind/backend/internal/modules/release"
-	"github.com/trademind-ai/trademind/backend/internal/modules/restore"
+	"github.com/cxa-maker/one/backend/internal/config"
+	"github.com/cxa-maker/one/backend/internal/database"
+	"github.com/cxa-maker/one/backend/internal/encrypt"
+	"github.com/cxa-maker/one/backend/internal/modules/backup"
+	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
+	"github.com/cxa-maker/one/backend/internal/modules/release"
+	"github.com/cxa-maker/one/backend/internal/modules/restore"
 	"gorm.io/gorm"
 )
 

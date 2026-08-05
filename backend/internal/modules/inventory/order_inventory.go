@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/modules/idempotency"
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationlog"
-	"github.com/trademind-ai/trademind/backend/internal/modules/product"
+	"github.com/cxa-maker/one/backend/internal/modules/idempotency"
+	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
+	"github.com/cxa-maker/one/backend/internal/modules/product"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
 )

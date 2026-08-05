@@ -22,7 +22,7 @@ export default function PublishBoundaryBanner({
 
   let message = '创建本地草稿不等于平台真实草稿；抖店当前仍为发布候选。';
   if (isLocalOnly) {
-    message = `${publishCapabilityLabel('local_draft_only')}：仅在 TradeMind 内保存草稿记录，不会调用平台写接口。`;
+    message = `${publishCapabilityLabel('local_draft_only')}：仅在嘉乐OZON——AI内保存草稿记录，不会调用平台写接口。`;
   } else if (isRealDraft) {
     message =
       '创建抖店草稿不等于商品上架；需人工在平台后台确认并提交，真实 E2E 未执行或被凭证阻塞时请勿视为已上线。';

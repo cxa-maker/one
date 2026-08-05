@@ -10,10 +10,10 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationlog"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/response"
-	"github.com/trademind-ai/trademind/backend/internal/providers/email"
-	"github.com/trademind-ai/trademind/backend/internal/providers/email/smtp"
+	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
+	"github.com/cxa-maker/one/backend/internal/pkg/response"
+	"github.com/cxa-maker/one/backend/internal/providers/email"
+	"github.com/cxa-maker/one/backend/internal/providers/email/smtp"
 	"gorm.io/gorm"
 )
 
@@ -132,7 +132,7 @@ func (h *Handler) sendCodeEmail(ctx context.Context, to, code string) error {
 		p := smtp.NewProvider(cfg)
 		return p.Send(ctx, email.SendEmailRequest{
 			To:      to,
-			Subject: "Your Verification Code - TradeMind",
+			Subject: "Your Verification Code - 嘉乐OZON——AI",
 			Content: fmt.Sprintf("Your verification code is: %s. It will expire in 10 minutes.", code),
 		})
 	}

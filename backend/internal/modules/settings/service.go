@@ -8,14 +8,14 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/encrypt"
-	"github.com/trademind-ai/trademind/backend/internal/providers/email"
-	"github.com/trademind-ai/trademind/backend/internal/providers/email/smtp"
-	platformtiktok "github.com/trademind-ai/trademind/backend/internal/providers/platform/tiktok"
-	cosstorage "github.com/trademind-ai/trademind/backend/internal/providers/storage/cos"
-	"github.com/trademind-ai/trademind/backend/internal/providers/storage/localroot"
-	ossstorage "github.com/trademind-ai/trademind/backend/internal/providers/storage/oss"
-	"github.com/trademind-ai/trademind/backend/internal/providers/storage/s3store"
+	"github.com/cxa-maker/one/backend/internal/encrypt"
+	"github.com/cxa-maker/one/backend/internal/providers/email"
+	"github.com/cxa-maker/one/backend/internal/providers/email/smtp"
+	platformtiktok "github.com/cxa-maker/one/backend/internal/providers/platform/tiktok"
+	cosstorage "github.com/cxa-maker/one/backend/internal/providers/storage/cos"
+	"github.com/cxa-maker/one/backend/internal/providers/storage/localroot"
+	ossstorage "github.com/cxa-maker/one/backend/internal/providers/storage/oss"
+	"github.com/cxa-maker/one/backend/internal/providers/storage/s3store"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
 )
@@ -289,8 +289,8 @@ func (s *Service) TestEmailConnection(ctx context.Context, to string) error {
 		p := smtp.NewProvider(cfg)
 		return p.Send(ctx, email.SendEmailRequest{
 			To:      to,
-			Subject: "TradeMind Email Test",
-			Content: "This is a test email from TradeMind.",
+			Subject: "嘉乐OZON——AI Email Test",
+			Content: "This is a test email from 嘉乐OZON——AI.",
 		})
 	}
 	return fmt.Errorf("unsupported email provider %q", provider)

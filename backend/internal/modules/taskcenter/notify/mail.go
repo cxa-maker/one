@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/providers/email"
-	"github.com/trademind-ai/trademind/backend/internal/providers/email/smtp"
+	"github.com/cxa-maker/one/backend/internal/providers/email"
+	"github.com/cxa-maker/one/backend/internal/providers/email/smtp"
 )
 
 // SendMail sends one alert mail to comma-separated mail_to (same body per recipient).

@@ -3,7 +3,7 @@ package logging
 import (
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/pkg/safefields"
+	"github.com/cxa-maker/one/backend/internal/pkg/safefields"
 )
 
 var sensitiveKeys = []string{

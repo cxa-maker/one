@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/pkg/safefields"
+	"github.com/cxa-maker/one/backend/internal/pkg/safefields"
 )
 
 const (

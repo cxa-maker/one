@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/providers/ai/compatclient"
+	"github.com/cxa-maker/one/backend/internal/providers/ai/compatclient"
 )
 
 const (

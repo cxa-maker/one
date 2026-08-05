@@ -5,10 +5,10 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/modules/auth"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/adminperm"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/ctxkey"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/response"
+	"github.com/cxa-maker/one/backend/internal/modules/auth"
+	"github.com/cxa-maker/one/backend/internal/pkg/adminperm"
+	"github.com/cxa-maker/one/backend/internal/pkg/ctxkey"
+	"github.com/cxa-maker/one/backend/internal/pkg/response"
 	"gorm.io/gorm"
 )
 

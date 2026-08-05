@@ -3,7 +3,7 @@ package settings
 import (
 	"testing"
 
-	aigate "github.com/trademind-ai/trademind/backend/internal/providers/ai"
+	aigate "github.com/cxa-maker/one/backend/internal/providers/ai"
 )
 
 func TestMergeAIPlainProviderSpecificKeys(t *testing.T) {

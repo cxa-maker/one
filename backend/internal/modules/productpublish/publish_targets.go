@@ -14,11 +14,11 @@ import (
 	"gorm.io/datatypes"
 	"gorm.io/gorm"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/product"
-	"github.com/trademind-ai/trademind/backend/internal/modules/productcheck"
-	"github.com/trademind-ai/trademind/backend/internal/modules/shop"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/opslabels"
-	platformp "github.com/trademind-ai/trademind/backend/internal/providers/platform"
+	"github.com/cxa-maker/one/backend/internal/modules/product"
+	"github.com/cxa-maker/one/backend/internal/modules/productcheck"
+	"github.com/cxa-maker/one/backend/internal/modules/shop"
+	"github.com/cxa-maker/one/backend/internal/pkg/opslabels"
+	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
 )
 
 // PublishTargetShopDTO is one shop under a platform target.

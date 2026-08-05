@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/glebarez/sqlite"
-	"github.com/trademind-ai/trademind/backend/internal/modules/aitask"
+	"github.com/cxa-maker/one/backend/internal/modules/aitask"
 	"gorm.io/datatypes"
 	"gorm.io/gorm"
 )

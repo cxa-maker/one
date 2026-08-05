@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/config"
+	"github.com/cxa-maker/one/backend/internal/config"
 )
 
 func envBool(key string) bool {

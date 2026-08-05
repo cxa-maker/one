@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	aigate "github.com/trademind-ai/trademind/backend/internal/providers/ai"
+	aigate "github.com/cxa-maker/one/backend/internal/providers/ai"
 )
 
 const (

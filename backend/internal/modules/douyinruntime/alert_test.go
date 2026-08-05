@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/glebarez/sqlite"
-	"github.com/trademind-ai/trademind/backend/internal/modules/taskcenter"
+	"github.com/cxa-maker/one/backend/internal/modules/taskcenter"
 	"gorm.io/gorm"
 )
 

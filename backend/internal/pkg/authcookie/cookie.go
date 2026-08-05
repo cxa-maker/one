@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/trademind-ai/trademind/backend/internal/config"
+	"github.com/cxa-maker/one/backend/internal/config"
 )
 
 // RefreshCookieName is the HttpOnly cookie storing refresh tokens.

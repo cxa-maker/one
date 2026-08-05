@@ -11,9 +11,9 @@ import (
 	"github.com/google/uuid"
 	"gorm.io/gorm"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/aitask"
-	"github.com/trademind-ai/trademind/backend/internal/modules/idempotency"
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationlog"
+	"github.com/cxa-maker/one/backend/internal/modules/aitask"
+	"github.com/cxa-maker/one/backend/internal/modules/idempotency"
+	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
 )
 
 func (s *Service) applyAIContent(c *gin.Context, p *Product, fieldType string, value string, taskID uuid.UUID, expectedUpdatedAt string, sourceSnapshotHash string, adminID *uuid.UUID) error {

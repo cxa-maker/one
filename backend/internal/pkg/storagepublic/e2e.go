@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/providers/storage"
+	"github.com/cxa-maker/one/backend/internal/providers/storage"
 )
 
 // EndToEndResult is returned after upload → probe → cleanup.

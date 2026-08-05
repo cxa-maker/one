@@ -12,7 +12,7 @@ import (
 
 	tc "github.com/tencentyun/cos-go-sdk-v5"
 
-	"github.com/trademind-ai/trademind/backend/internal/providers/storage/keypath"
+	"github.com/cxa-maker/one/backend/internal/providers/storage/keypath"
 )
 
 // Provider implements storage.Provider for Tencent COS.

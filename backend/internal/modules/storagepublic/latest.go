@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	storagepub "github.com/trademind-ai/trademind/backend/internal/pkg/storagepublic"
+	storagepub "github.com/cxa-maker/one/backend/internal/pkg/storagepublic"
 )
 
 var (

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/imagetask"
+	"github.com/cxa-maker/one/backend/internal/modules/imagetask"
 )
 
 // humanizeCollectorError maps collector error codes to user-facing Chinese labels.

@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/logging"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/metrics"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/tracing"
+	"github.com/cxa-maker/one/backend/internal/pkg/logging"
+	"github.com/cxa-maker/one/backend/internal/pkg/metrics"
+	"github.com/cxa-maker/one/backend/internal/pkg/tracing"
 )
 
 // Config bundles observability settings.

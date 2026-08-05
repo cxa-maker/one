@@ -4,8 +4,8 @@ import (
 	"context"
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/collect"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/collectdomain"
+	"github.com/cxa-maker/one/backend/internal/modules/collect"
+	"github.com/cxa-maker/one/backend/internal/pkg/collectdomain"
 )
 
 type platformBlockError struct {

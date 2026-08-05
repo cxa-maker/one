@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/idempotency"
+	"github.com/cxa-maker/one/backend/internal/modules/idempotency"
 )
 
 func TestDouyinProductDraftCreate(t *testing.T) {

@@ -8,8 +8,8 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
 
-	"github.com/trademind-ai/trademind/backend/internal/pkg/ctxkey"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/response"
+	"github.com/cxa-maker/one/backend/internal/pkg/ctxkey"
+	"github.com/cxa-maker/one/backend/internal/pkg/response"
 )
 
 type Handler struct {

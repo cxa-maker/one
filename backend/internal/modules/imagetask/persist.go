@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/modules/files"
-	imgprov "github.com/trademind-ai/trademind/backend/internal/providers/image"
+	"github.com/cxa-maker/one/backend/internal/modules/files"
+	imgprov "github.com/cxa-maker/one/backend/internal/providers/image"
 )
 
 // persistProviderResult uploads bytes to configured storage; never returns provider temp URLs as final.

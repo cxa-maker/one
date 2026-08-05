@@ -9,7 +9,7 @@ import (
 
 	"gorm.io/gorm"
 
-	"github.com/trademind-ai/trademind/backend/internal/rdb"
+	"github.com/cxa-maker/one/backend/internal/rdb"
 )
 
 func resolveQueueName(name string) string {

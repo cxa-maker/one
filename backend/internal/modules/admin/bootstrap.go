@@ -6,7 +6,7 @@ import (
 	"log/slog"
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/config"
+	"github.com/cxa-maker/one/backend/internal/config"
 	"golang.org/x/crypto/bcrypt"
 	"gorm.io/gorm"
 )

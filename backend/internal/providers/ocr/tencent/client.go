@@ -19,7 +19,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/trademind-ai/trademind/backend/internal/providers/ocr/ocrerror"
+	"github.com/cxa-maker/one/backend/internal/providers/ocr/ocrerror"
 )
 
 const (

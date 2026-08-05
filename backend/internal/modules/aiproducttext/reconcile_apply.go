@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/modules/product"
+	"github.com/cxa-maker/one/backend/internal/modules/product"
 )
 
 // ReconcileTextApply on retry_allowed acquire attempts to repair idempotency after commit gap.

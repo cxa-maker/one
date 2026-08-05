@@ -175,7 +175,7 @@ function checkKeys(url, keys, values = {}) {
   return { missing, badValues, ok: missing.length === 0 && badValues.length === 0 };
 }
 
-const AUTH_TOKEN_KEY = 'trademind_admin_token';
+const AUTH_TOKEN_KEY = 'jiale_ozon_ai_admin_token';
 
 async function setAuthToken(context, token) {
   await context.addInitScript(

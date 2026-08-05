@@ -10,11 +10,11 @@ import (
 	"gorm.io/datatypes"
 	"gorm.io/gorm"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/aiprompt"
-	"github.com/trademind-ai/trademind/backend/internal/modules/aitask"
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationlog"
-	"github.com/trademind-ai/trademind/backend/internal/modules/order"
-	aigate "github.com/trademind-ai/trademind/backend/internal/providers/ai"
+	"github.com/cxa-maker/one/backend/internal/modules/aiprompt"
+	"github.com/cxa-maker/one/backend/internal/modules/aitask"
+	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
+	"github.com/cxa-maker/one/backend/internal/modules/order"
+	aigate "github.com/cxa-maker/one/backend/internal/providers/ai"
 )
 
 // GenerateReplyBody POST .../ai/generate-reply

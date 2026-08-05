@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/trademind-ai/trademind/backend/internal/encrypt"
+	"github.com/cxa-maker/one/backend/internal/encrypt"
 	"gorm.io/gorm"
 )
 

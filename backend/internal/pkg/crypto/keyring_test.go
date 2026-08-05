@@ -3,7 +3,7 @@ package crypto_test
 import (
 	"testing"
 
-	"github.com/trademind-ai/trademind/backend/internal/pkg/crypto"
+	"github.com/cxa-maker/one/backend/internal/pkg/crypto"
 )
 
 func TestKeyRingEncryptDecrypt(t *testing.T) {

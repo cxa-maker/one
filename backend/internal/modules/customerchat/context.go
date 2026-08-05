@@ -5,8 +5,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/modules/order"
-	"github.com/trademind-ai/trademind/backend/internal/modules/product"
+	"github.com/cxa-maker/one/backend/internal/modules/order"
+	"github.com/cxa-maker/one/backend/internal/modules/product"
 )
 
 // ContextSummary is a safe, user-visible AI context digest (no raw platform data).

@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/trademind-ai/trademind/backend/internal/pkg/logging"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/tracing"
+	"github.com/cxa-maker/one/backend/internal/pkg/logging"
+	"github.com/cxa-maker/one/backend/internal/pkg/tracing"
 )
 
 func TestInitLocalMode(t *testing.T) {

@@ -6,7 +6,7 @@ import (
 
 	"github.com/google/uuid"
 
-	platformp "github.com/trademind-ai/trademind/backend/internal/providers/platform"
+	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
 )
 
 // PublishImageFetcher loads listing image bytes for Shopee Media Space upload (storage + public HTTP).

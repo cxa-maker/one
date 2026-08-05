@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/productpublish"
+	"github.com/cxa-maker/one/backend/internal/modules/productpublish"
 	"gorm.io/gorm"
 )
 

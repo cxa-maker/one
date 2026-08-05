@@ -1,4 +1,4 @@
-<h1 align="center">贸灵 TradeMind</h1>
+<h1 align="center">嘉乐OZON——AI</h1>
 
 <p align="center">
   <strong>开源 AI 跨境电商运营平台</strong>
@@ -30,12 +30,12 @@
 </p>
 
 <p align="center">
-  <img src="docs/assets/img/readme-hero-zh.png" alt="TradeMind 产品预览" width="100%" />
+  <img src="docs/assets/img/readme-hero-zh.png" alt="嘉乐OZON——AI 产品预览" width="100%" />
 </p>
 
-TradeMind 是一个面向跨境卖家与开发团队的开源 AI 运营平台，优先解决“采集、整理、优化、刊登、同步”这条主链路。项目当前聚焦两条主线：`AI 商品运营工具` 与 `多平台跨境 ERP MVP`。
+嘉乐OZON——AI 是基于 TradeMind 开源基座适配的 OZON/rFBS AI 运营平台，优先解决“采集、整理、优化、刊登、同步”这条主链路。当前产品以 OZON 为主平台，保留 Provider 和任务审计能力用于后续扩展。
 
-与传统重型 ERP 不同，TradeMind 当前不追求多仓、采购、财务、WMS / OMS 或复杂 BI 的一次性全量覆盖，而是提供一个可私有化部署、可二次开发、可通过 Provider 扩展的平台底座。
+与传统重型 ERP 不同，嘉乐OZON——AI 当前不追求多仓、采购、财务、WMS / OMS 或复杂 BI 的一次性全量覆盖，而是先把 OZON 商品采集、商品档案、素材处理、成本利润和人工确认上架做成可私有化部署的工作台。底层能力基于 TradeMind 开源基座，并保留其上游归属和许可证信息。
 
 ## Release Status
 

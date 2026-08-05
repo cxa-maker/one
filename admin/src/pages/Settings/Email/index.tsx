@@ -111,7 +111,7 @@ export default function EmailSettingsPage() {
                 自备 SMTP 服务
               </Typography.Title>
               <Paragraph type="secondary" className="tm-system-settings__hero-desc">
-                贸灵不提供邮件代发账号。请使用企业邮箱、QQ/网易客户端授权码、云邮件推送或 SendGrid /
+                嘉乐OZON——AI不提供邮件代发账号。请使用企业邮箱、QQ/网易客户端授权码、云邮件推送或 SendGrid /
                 Mailgun 等 SMTP。密码加密存库、接口脱敏，日志不记录明文密码。告警收件人请在{' '}
                 <Link to="/settings/alert-notify">告警通知配置</Link> 中设置。
               </Paragraph>

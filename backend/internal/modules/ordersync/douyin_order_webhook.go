@@ -7,10 +7,10 @@ import (
 	"strings"
 
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/modules/order"
-	"github.com/trademind-ai/trademind/backend/internal/modules/shop"
-	platformp "github.com/trademind-ai/trademind/backend/internal/providers/platform"
-	platformdouyin "github.com/trademind-ai/trademind/backend/internal/providers/platform/douyinshop"
+	"github.com/cxa-maker/one/backend/internal/modules/order"
+	"github.com/cxa-maker/one/backend/internal/modules/shop"
+	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
+	platformdouyin "github.com/cxa-maker/one/backend/internal/providers/platform/douyinshop"
 	"gorm.io/gorm"
 )
 

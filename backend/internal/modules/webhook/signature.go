@@ -12,14 +12,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/trademind-ai/trademind/backend/internal/config"
+	"github.com/cxa-maker/one/backend/internal/config"
 )
 
 // PlatformInternalTest is the HMAC test platform (dev/test only).
 const PlatformInternalTest = "internal-test"
 
 // TestHMACSecret is the shared secret for the internal-test verifier (never use in production).
-const TestHMACSecret = "trademind-internal-test-webhook-secret"
+const TestHMACSecret = "jiale-ozon-ai-internal-test-webhook-secret"
 
 // VerifyInput is the normalized signature verification request.
 type VerifyInput struct {
@@ -155,6 +155,9 @@ func extractSignatureHeader(h http.Header) string {
 	if v := strings.TrimSpace(h.Get("X-Webhook-Signature")); v != "" {
 		return v
 	}
+	if v := strings.TrimSpace(h.Get("X-Jiale-Ozon-Ai-Signature")); v != "" {
+		return v
+	}
 	if v := strings.TrimSpace(h.Get("X-TradeMind-Signature")); v != "" {
 		return v
 	}
@@ -168,6 +171,9 @@ func extractTimestampHeader(h http.Header) string {
 	if v := strings.TrimSpace(h.Get("X-Webhook-Timestamp")); v != "" {
 		return v
 	}
+	if v := strings.TrimSpace(h.Get("X-Jiale-Ozon-Ai-Timestamp")); v != "" {
+		return v
+	}
 	if v := strings.TrimSpace(h.Get("X-TradeMind-Timestamp")); v != "" {
 		return v
 	}
@@ -179,6 +185,9 @@ func extractNonceHeader(h http.Header) string {
 		return ""
 	}
 	if v := strings.TrimSpace(h.Get("X-Webhook-Nonce")); v != "" {
+		return v
+	}
+	if v := strings.TrimSpace(h.Get("X-Jiale-Ozon-Ai-Nonce")); v != "" {
 		return v
 	}
 	return strings.TrimSpace(h.Get("X-TradeMind-Nonce"))

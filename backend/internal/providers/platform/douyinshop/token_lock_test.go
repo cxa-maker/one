@@ -3,7 +3,7 @@ package douyinshop_test
 import (
 	"testing"
 
-	douyinshop "github.com/trademind-ai/trademind/backend/internal/providers/platform/douyinshop"
+	douyinshop "github.com/cxa-maker/one/backend/internal/providers/platform/douyinshop"
 )
 
 func TestTokenVersionKey(t *testing.T) {

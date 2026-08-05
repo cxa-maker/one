@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	douyinmetrics "github.com/trademind-ai/trademind/backend/internal/metrics/douyin"
+	douyinmetrics "github.com/cxa-maker/one/backend/internal/metrics/douyin"
 )
 
 const (

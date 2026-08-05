@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/pkg/reporoot"
+	"github.com/cxa-maker/one/backend/internal/pkg/reporoot"
 )
 
 // DefaultRelative is the settings default for storage.local_root (resolved under repo root when possible).

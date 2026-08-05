@@ -82,7 +82,7 @@ func SendWebhook(ctx context.Context, d WebhookDeps, payload AlertNotificationPa
 		mac := hmac.New(sha256.New, []byte(sec))
 		_, _ = mac.Write(bodyBytes)
 		sig := hex.EncodeToString(mac.Sum(nil))
-		req.Header.Set("X-TradeMind-Signature", sig)
+		req.Header.Set("X-Jiale-Ozon-Ai-Signature", sig)
 	}
 
 	timeout := d.Timeout

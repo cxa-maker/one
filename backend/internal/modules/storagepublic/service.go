@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationlog"
-	"github.com/trademind-ai/trademind/backend/internal/modules/settings"
-	storagepub "github.com/trademind-ai/trademind/backend/internal/pkg/storagepublic"
+	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
+	"github.com/cxa-maker/one/backend/internal/modules/settings"
+	storagepub "github.com/cxa-maker/one/backend/internal/pkg/storagepublic"
 )
 
 // Service orchestrates storage public access tests.

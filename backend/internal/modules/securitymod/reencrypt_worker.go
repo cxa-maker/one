@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/modules/worker"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/security"
+	"github.com/cxa-maker/one/backend/internal/modules/worker"
+	"github.com/cxa-maker/one/backend/internal/pkg/security"
 )
 
 // StartReencryptWorker polls running rotation jobs and processes re-encrypt batches.

@@ -11,10 +11,10 @@ import (
 	"strings"
 
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/modules/files"
-	"github.com/trademind-ai/trademind/backend/internal/modules/product"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/httppublic"
-	"github.com/trademind-ai/trademind/backend/internal/providers/storage"
+	"github.com/cxa-maker/one/backend/internal/modules/files"
+	"github.com/cxa-maker/one/backend/internal/modules/product"
+	"github.com/cxa-maker/one/backend/internal/pkg/httppublic"
+	"github.com/cxa-maker/one/backend/internal/providers/storage"
 )
 
 func sanitizeStorageObjectKey(raw string) (string, error) {

@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/security"
+	"github.com/cxa-maker/one/backend/internal/pkg/security"
 )
 
 // TaskScope carries tenant and optional shop for worker tasks.

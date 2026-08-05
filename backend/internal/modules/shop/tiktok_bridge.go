@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	platformtiktok "github.com/trademind-ai/trademind/backend/internal/providers/platform/tiktok"
+	platformtiktok "github.com/cxa-maker/one/backend/internal/providers/platform/tiktok"
 )
 
 // TikTokShopsBridge satisfies platform/tiktok persistence hooks.

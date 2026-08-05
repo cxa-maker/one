@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/trademind-ai/trademind/backend/internal/pkg/metrics"
+	"github.com/cxa-maker/one/backend/internal/pkg/metrics"
 )
 
 func TestWebhookObservabilityRecordsMetrics(t *testing.T) {

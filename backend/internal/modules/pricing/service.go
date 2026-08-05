@@ -7,9 +7,9 @@ import (
 	"strings"
 
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationlog"
-	"github.com/trademind-ai/trademind/backend/internal/modules/product"
-	"github.com/trademind-ai/trademind/backend/internal/modules/settings"
+	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
+	"github.com/cxa-maker/one/backend/internal/modules/product"
+	"github.com/cxa-maker/one/backend/internal/modules/settings"
 	"gorm.io/gorm"
 )
 

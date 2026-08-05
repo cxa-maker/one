@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/shop"
-	platformp "github.com/trademind-ai/trademind/backend/internal/providers/platform"
+	"github.com/cxa-maker/one/backend/internal/modules/shop"
+	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
 	"gorm.io/datatypes"
 	"gorm.io/gorm"
 )

@@ -288,7 +288,7 @@ export const layout: RunTimeLayoutConfig = ({ initialState }) => ({
             textOverflow: 'ellipsis',
           }}
         >
-          贸灵 <span style={{ fontWeight: 500, color: themeTokens.colorTextSecondary }}>TradeMind</span>
+          嘉乐OZON——AI
         </span>
       </div>
     );

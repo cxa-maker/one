@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	douyinmetrics "github.com/trademind-ai/trademind/backend/internal/metrics/douyin"
+	douyinmetrics "github.com/cxa-maker/one/backend/internal/metrics/douyin"
 )
 
 func (c *Client) do(ctx context.Context, method string, params map[string]any, accessToken string, out any) error {

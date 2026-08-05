@@ -9,15 +9,15 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/trademind-ai/trademind/backend/internal/encrypt"
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationlog"
-	"github.com/trademind-ai/trademind/backend/internal/modules/settings"
-	platformp "github.com/trademind-ai/trademind/backend/internal/providers/platform"
-	platformamazon "github.com/trademind-ai/trademind/backend/internal/providers/platform/amazon"
-	platformdouyin "github.com/trademind-ai/trademind/backend/internal/providers/platform/douyinshop"
-	platformlazada "github.com/trademind-ai/trademind/backend/internal/providers/platform/lazada"
-	platformshopee "github.com/trademind-ai/trademind/backend/internal/providers/platform/shopee"
-	platformtiktok "github.com/trademind-ai/trademind/backend/internal/providers/platform/tiktok"
+	"github.com/cxa-maker/one/backend/internal/encrypt"
+	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
+	"github.com/cxa-maker/one/backend/internal/modules/settings"
+	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
+	platformamazon "github.com/cxa-maker/one/backend/internal/providers/platform/amazon"
+	platformdouyin "github.com/cxa-maker/one/backend/internal/providers/platform/douyinshop"
+	platformlazada "github.com/cxa-maker/one/backend/internal/providers/platform/lazada"
+	platformshopee "github.com/cxa-maker/one/backend/internal/providers/platform/shopee"
+	platformtiktok "github.com/cxa-maker/one/backend/internal/providers/platform/tiktok"
 )
 
 // PlatformAppSettingsDTO is GET /api/v1/platform/settings/:platform and PUT response body.

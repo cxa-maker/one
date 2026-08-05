@@ -3,7 +3,7 @@ package database
 import (
 	"fmt"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/order"
+	"github.com/cxa-maker/one/backend/internal/modules/order"
 	"gorm.io/gorm"
 )
 

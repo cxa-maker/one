@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	platformp "github.com/trademind-ai/trademind/backend/internal/providers/platform"
+	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
 )
 
 // SyncOrders pulls one page / cursor window of orders mapped to PlatformOrder.

@@ -11,10 +11,10 @@ import (
 	"github.com/google/uuid"
 	"gorm.io/datatypes"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationlog"
-	"github.com/trademind-ai/trademind/backend/internal/modules/product"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/adminperm"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/opslabels"
+	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
+	"github.com/cxa-maker/one/backend/internal/modules/product"
+	"github.com/cxa-maker/one/backend/internal/pkg/adminperm"
+	"github.com/cxa-maker/one/backend/internal/pkg/opslabels"
 )
 
 // BatchTargetsCheckRequest POST batch-targets/check body.

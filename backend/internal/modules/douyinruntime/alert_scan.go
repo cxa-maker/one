@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
-	douyinmetrics "github.com/trademind-ai/trademind/backend/internal/metrics/douyin"
-	"github.com/trademind-ai/trademind/backend/internal/modules/shop"
-	"github.com/trademind-ai/trademind/backend/internal/modules/taskcenter/failureclassifier"
-	platformdouyin "github.com/trademind-ai/trademind/backend/internal/providers/platform/douyinshop"
+	douyinmetrics "github.com/cxa-maker/one/backend/internal/metrics/douyin"
+	"github.com/cxa-maker/one/backend/internal/modules/shop"
+	"github.com/cxa-maker/one/backend/internal/modules/taskcenter/failureclassifier"
+	platformdouyin "github.com/cxa-maker/one/backend/internal/providers/platform/douyinshop"
 )
 
 // ScanDouyinAlerts evaluates platform metrics/state and upserts/resolves TaskAlert rows.

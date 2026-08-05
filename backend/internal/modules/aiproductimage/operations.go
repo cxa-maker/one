@@ -4,8 +4,8 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/imagetask"
-	imgprov "github.com/trademind-ai/trademind/backend/internal/providers/image"
+	"github.com/cxa-maker/one/backend/internal/modules/imagetask"
+	imgprov "github.com/cxa-maker/one/backend/internal/providers/image"
 )
 
 var (

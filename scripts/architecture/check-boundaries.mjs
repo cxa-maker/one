@@ -101,8 +101,8 @@ function resolveImport(fromFile, specifier) {
   if (specifier.startsWith('@/')) return resolveCandidate(path.join(root, 'admin/src', specifier.slice(2)));
   if (specifier.startsWith('~/')) return resolveCandidate(path.join(root, 'admin/src', specifier.slice(2)));
   if (specifier.startsWith('.')) return resolveCandidate(path.resolve(path.dirname(fromFile), specifier));
-  if (specifier.startsWith('@trademind/admin/')) return resolveCandidate(path.join(root, 'admin', specifier.slice('@trademind/admin/'.length)));
-  if (specifier.startsWith('@trademind/collector/')) return resolveCandidate(path.join(root, 'collector', specifier.slice('@trademind/collector/'.length)));
+  if (specifier.startsWith('@jiale-ozon-ai/admin/')) return resolveCandidate(path.join(root, 'admin', specifier.slice('@jiale-ozon-ai/admin/'.length)));
+  if (specifier.startsWith('@jiale-ozon-ai/collector/')) return resolveCandidate(path.join(root, 'collector', specifier.slice('@jiale-ozon-ai/collector/'.length)));
   return null;
 }
 

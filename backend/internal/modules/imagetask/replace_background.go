@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/modules/product"
+	"github.com/cxa-maker/one/backend/internal/modules/product"
 )
 
 func (s *Service) prepareReplaceBackgroundHints(ctx context.Context, task *ImageTask, hints map[string]any) map[string]any {

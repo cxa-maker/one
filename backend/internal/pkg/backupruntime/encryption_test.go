@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/trademind-ai/trademind/backend/internal/encrypt"
+	"github.com/cxa-maker/one/backend/internal/encrypt"
 )
 
 func TestEncryptFileRoundTripAndTamperReject(t *testing.T) {

@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	platformp "github.com/trademind-ai/trademind/backend/internal/providers/platform"
+	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
 )
 
 // OrdersSearch pulls one page of orders and maps them to PlatformOrder (best-effort for varied API shapes).

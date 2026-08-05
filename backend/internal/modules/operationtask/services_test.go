@@ -8,7 +8,7 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationtask"
+	"github.com/cxa-maker/one/backend/internal/modules/operationtask"
 	"gorm.io/datatypes"
 	"gorm.io/gorm"
 )

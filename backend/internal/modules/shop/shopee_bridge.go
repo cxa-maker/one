@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	platformshopee "github.com/trademind-ai/trademind/backend/internal/providers/platform/shopee"
+	platformshopee "github.com/cxa-maker/one/backend/internal/providers/platform/shopee"
 )
 
 // ShopeeShopsBridge satisfies platform/shopee persistence hooks.

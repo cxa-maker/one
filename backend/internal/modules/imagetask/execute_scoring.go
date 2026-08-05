@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/product"
-	imgprov "github.com/trademind-ai/trademind/backend/internal/providers/image"
+	"github.com/cxa-maker/one/backend/internal/modules/product"
+	imgprov "github.com/cxa-maker/one/backend/internal/providers/image"
 )
 
 func (s *Service) executeScoringTask(ctx context.Context, task *ImageTask, hints map[string]any) error {

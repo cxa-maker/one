@@ -11,8 +11,8 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/worker"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/tasktenant"
+	"github.com/cxa-maker/one/backend/internal/modules/worker"
+	"github.com/cxa-maker/one/backend/internal/pkg/tasktenant"
 )
 
 func StartWorker(ctx context.Context, wg *sync.WaitGroup, log *slog.Logger, svc *Service, queueName string, concurrency int, reg *worker.Registry) {

@@ -5,13 +5,13 @@
 ## 安装浏览器
 
 ```bash
-pnpm --filter @trademind/admin exec playwright install chromium
+pnpm --filter @jiale-ozon-ai/admin exec playwright install chromium
 ```
 
 CI 使用：
 
 ```bash
-pnpm --filter @trademind/admin exec playwright install --with-deps chromium
+pnpm --filter @jiale-ozon-ai/admin exec playwright install --with-deps chromium
 ```
 
 ## 本地运行

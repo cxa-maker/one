@@ -143,7 +143,7 @@ export function passwordForRole(role) {
 }
 
 export function webhookTestSecret() {
-  return __ENV.P7V2_WEBHOOK_TEST_SECRET || 'trademind-internal-test-webhook-secret';
+  return __ENV.P7V2_WEBHOOK_TEST_SECRET || 'jiale-ozon-ai-internal-test-webhook-secret';
 }
 
 export function matrixFingerprint() {

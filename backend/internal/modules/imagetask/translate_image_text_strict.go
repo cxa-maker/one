@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/pkg/aimodelparse"
+	"github.com/cxa-maker/one/backend/internal/pkg/aimodelparse"
 )
 
 const layoutWarningOCRFiltered = "ocr_hallucination_filtered"

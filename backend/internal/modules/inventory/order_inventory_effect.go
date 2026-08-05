@@ -2,7 +2,7 @@ package inventory
 
 import (
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/model"
+	"github.com/cxa-maker/one/backend/internal/pkg/model"
 )
 
 // Order inventory linkage uses a sentinel UUID because composite unique constraints do not treat nil as equal.

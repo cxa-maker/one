@@ -7,9 +7,14 @@ import (
 )
 
 // Find returns the monorepo root (directory containing pnpm-workspace.yaml and backend/go.mod).
-// Set TRADEMIND_REPO_ROOT to override. Returns ("", false) when not found (e.g. production image WORKDIR /app).
+// Set JIALE_OZON_AI_REPO_ROOT to override. The old variable remains a read-only
+// compatibility alias for existing local scripts.
 func Find() (string, bool) {
-	if v := strings.TrimSpace(os.Getenv("TRADEMIND_REPO_ROOT")); v != "" {
+	v := strings.TrimSpace(os.Getenv("JIALE_OZON_AI_REPO_ROOT"))
+	if v == "" {
+		v = strings.TrimSpace(os.Getenv("TRADEMIND_REPO_ROOT"))
+	}
+	if v != "" {
 		abs, err := filepath.Abs(v)
 		if err != nil {
 			return "", false

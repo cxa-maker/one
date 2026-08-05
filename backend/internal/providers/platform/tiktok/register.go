@@ -1,6 +1,6 @@
 package tiktok
 
-import platformp "github.com/trademind-ai/trademind/backend/internal/providers/platform"
+import platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
 
 // RegisterProvider registers the TikTok beta provider (must run after BindShops for token refresh persistence).
 func RegisterProvider() {

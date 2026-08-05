@@ -7,9 +7,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/adminperm"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/repository"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/tenantquery"
+	"github.com/cxa-maker/one/backend/internal/pkg/adminperm"
+	"github.com/cxa-maker/one/backend/internal/pkg/repository"
+	"github.com/cxa-maker/one/backend/internal/pkg/tenantquery"
 	"gorm.io/gorm"
 )
 

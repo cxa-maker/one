@@ -9,7 +9,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/trademind-ai/trademind/backend/internal/encrypt"
+	"github.com/cxa-maker/one/backend/internal/encrypt"
 )
 
 const (

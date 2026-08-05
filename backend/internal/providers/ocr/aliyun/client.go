@@ -16,7 +16,7 @@ import (
 	ocrapi "github.com/alibabacloud-go/ocr-api-20210707/v3/client"
 	util "github.com/alibabacloud-go/tea-utils/v2/service"
 	"github.com/alibabacloud-go/tea/tea"
-	"github.com/trademind-ai/trademind/backend/internal/providers/ocr/ocrerror"
+	"github.com/cxa-maker/one/backend/internal/providers/ocr/ocrerror"
 )
 
 const (

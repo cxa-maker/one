@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/admin"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/adminperm"
+	"github.com/cxa-maker/one/backend/internal/modules/admin"
+	"github.com/cxa-maker/one/backend/internal/pkg/adminperm"
 )
 
 type permissionReport struct {

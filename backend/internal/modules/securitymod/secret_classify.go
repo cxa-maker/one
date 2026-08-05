@@ -3,7 +3,7 @@ package securitymod
 import (
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/pkg/crypto"
+	"github.com/cxa-maker/one/backend/internal/pkg/crypto"
 )
 
 const legacyKeyID = "legacy"

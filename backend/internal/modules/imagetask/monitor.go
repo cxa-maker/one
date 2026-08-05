@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/trademind-ai/trademind/backend/internal/rdb"
+	"github.com/cxa-maker/one/backend/internal/rdb"
 )
 
 // ImageQueueHealthBlock mirrors image queue metrics for /health.

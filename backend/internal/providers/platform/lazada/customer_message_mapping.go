@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	platformp "github.com/trademind-ai/trademind/backend/internal/providers/platform"
+	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
 )
 
 // Lazada IM template_id values (Partner Center IM docs). Adjust when official enums change.

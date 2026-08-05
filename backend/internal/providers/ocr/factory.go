@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/trademind-ai/trademind/backend/internal/providers/ocr/aliyun"
-	"github.com/trademind-ai/trademind/backend/internal/providers/ocr/ocrerror"
-	"github.com/trademind-ai/trademind/backend/internal/providers/ocr/paddleocr"
-	"github.com/trademind-ai/trademind/backend/internal/providers/ocr/tencent"
+	"github.com/cxa-maker/one/backend/internal/providers/ocr/aliyun"
+	"github.com/cxa-maker/one/backend/internal/providers/ocr/ocrerror"
+	"github.com/cxa-maker/one/backend/internal/providers/ocr/paddleocr"
+	"github.com/cxa-maker/one/backend/internal/providers/ocr/tencent"
 )
 
 type paddleOCRProvider struct {

@@ -6,12 +6,14 @@ import type { CollectProviderPublic } from '../types/provider-meta.js';
 import { sourceCustomCollectorProvider } from './sourceCustom/index.js';
 import { pinduoduoCollectorProvider } from './sourcePinduoduo/index.js';
 import { taobaoTmallCollectorProvider } from './sourceTaobaoTmall/index.js';
+import { ozonCollectorProvider } from './sourceOzon/index.js';
 
 const providers: CollectorProvider[] = [
   alibaba1688Provider,
   pinduoduoCollectorProvider,
   taobaoTmallCollectorProvider,
   aliExpressCollectorProvider,
+  ozonCollectorProvider,
   sourceSheinTemuProvider,
   sourceCustomCollectorProvider,
 ];

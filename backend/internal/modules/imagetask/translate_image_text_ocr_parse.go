@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/pkg/aimodelparse"
+	"github.com/cxa-maker/one/backend/internal/pkg/aimodelparse"
 )
 
 func parseOCRJSON(content string) (*translateOCRResult, error) {

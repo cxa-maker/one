@@ -3,7 +3,7 @@ package auth
 import (
 	"testing"
 
-	"github.com/trademind-ai/trademind/backend/internal/pkg/metrics"
+	"github.com/cxa-maker/one/backend/internal/pkg/metrics"
 )
 
 func TestAuthObservabilityRecordsMetrics(t *testing.T) {

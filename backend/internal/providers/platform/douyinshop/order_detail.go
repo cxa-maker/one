@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	platformp "github.com/trademind-ai/trademind/backend/internal/providers/platform"
+	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
 )
 
 // MethodOrderDetail is the official jinritemai OpenAPI method for single order detail.

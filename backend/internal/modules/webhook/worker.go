@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/trademind-ai/trademind/backend/internal/config"
-	"github.com/trademind-ai/trademind/backend/internal/modules/worker"
+	"github.com/cxa-maker/one/backend/internal/config"
+	"github.com/cxa-maker/one/backend/internal/modules/worker"
 )
 
 // StartWorker polls DB for status=queued webhook events until ctx is cancelled.

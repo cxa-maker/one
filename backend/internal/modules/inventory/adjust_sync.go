@@ -8,11 +8,11 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationlog"
-	"github.com/trademind-ai/trademind/backend/internal/modules/product"
-	"github.com/trademind-ai/trademind/backend/internal/modules/productpublish"
-	platformp "github.com/trademind-ai/trademind/backend/internal/providers/platform"
-	platformdouyin "github.com/trademind-ai/trademind/backend/internal/providers/platform/douyinshop"
+	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
+	"github.com/cxa-maker/one/backend/internal/modules/product"
+	"github.com/cxa-maker/one/backend/internal/modules/productpublish"
+	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
+	platformdouyin "github.com/cxa-maker/one/backend/internal/providers/platform/douyinshop"
 )
 
 // AdjustSKUStock updates local SKU snapshot and optionally enqueues platform pushes for eligible mappings.

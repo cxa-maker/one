@@ -9,7 +9,7 @@ import (
 
 	"github.com/glebarez/sqlite"
 	"github.com/google/uuid"
-	platformdouyin "github.com/trademind-ai/trademind/backend/internal/providers/platform/douyinshop"
+	platformdouyin "github.com/cxa-maker/one/backend/internal/providers/platform/douyinshop"
 	"gorm.io/gorm"
 )
 

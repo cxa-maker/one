@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/trademind-ai/trademind/backend/internal/providers/image/dashscopeimage"
-	"github.com/trademind-ai/trademind/backend/internal/providers/image/openaiimage"
+	"github.com/cxa-maker/one/backend/internal/providers/image/dashscopeimage"
+	"github.com/cxa-maker/one/backend/internal/providers/image/openaiimage"
 )
 
 // compatImageKeys maps provider name to settings key prefix (e.g. openai_image -> openai_image).

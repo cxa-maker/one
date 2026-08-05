@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/config"
-	storagepub "github.com/trademind-ai/trademind/backend/internal/pkg/storagepublic"
+	"github.com/cxa-maker/one/backend/internal/config"
+	storagepub "github.com/cxa-maker/one/backend/internal/pkg/storagepublic"
 )
 
 // ProjectPhase describes release posture for the config status center header.

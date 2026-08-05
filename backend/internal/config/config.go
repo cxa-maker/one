@@ -197,7 +197,7 @@ func Load() (*Config, error) {
 	appEnv := NormalizeEnv(firstNonEmpty(os.Getenv("APP_ENV"), EnvDevelopment))
 	cfg := &Config{
 		AppEnv:               appEnv,
-		AppName:              firstNonEmpty(os.Getenv("APP_NAME"), "TradeMind"),
+		AppName:              firstNonEmpty(os.Getenv("APP_NAME"), "嘉乐OZON——AI"),
 		AppVersion:           strings.TrimSpace(os.Getenv("APP_VERSION")),
 		HTTPAddr:             resolveHTTPAddr(),
 		AdminPublicURL:       strings.TrimSpace(os.Getenv("ADMIN_PUBLIC_URL")),

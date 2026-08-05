@@ -11,9 +11,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/trademind-ai/trademind/backend/internal/pkg/metrics"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/providerlimit"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/taskretry"
+	"github.com/cxa-maker/one/backend/internal/pkg/metrics"
+	"github.com/cxa-maker/one/backend/internal/pkg/providerlimit"
+	"github.com/cxa-maker/one/backend/internal/pkg/taskretry"
 )
 
 // Config holds safe defaults for outbound HTTP.
@@ -36,7 +36,7 @@ func DefaultConfig() Config {
 		MaxResponseBytes:      32 << 20,
 		MaxRedirects:          3,
 		RetryPolicy:           taskretry.DefaultPolicy(),
-		UserAgent:             "TradeMind/1.0",
+		UserAgent:             "JialeOzonAI/1.0",
 	}
 }
 

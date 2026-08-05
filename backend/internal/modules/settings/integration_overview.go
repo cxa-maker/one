@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/collectrule"
-	aigate "github.com/trademind-ai/trademind/backend/internal/providers/ai"
-	platformp "github.com/trademind-ai/trademind/backend/internal/providers/platform"
-	platformtiktok "github.com/trademind-ai/trademind/backend/internal/providers/platform/tiktok"
+	"github.com/cxa-maker/one/backend/internal/modules/collectrule"
+	aigate "github.com/cxa-maker/one/backend/internal/providers/ai"
+	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
+	platformtiktok "github.com/cxa-maker/one/backend/internal/providers/platform/tiktok"
 )
 
 // IntegrationOverviewAI is AI text readiness snapshot.
@@ -138,7 +138,7 @@ func (s *Service) BuildIntegrationOverview(ctx context.Context) (*IntegrationsOv
 	}
 
 	out := &IntegrationsOverview{
-		DisclaimerShort: "贸灵开源发行版不包含任何第三方密钥；请在各开放平台与云厂商自助申请，仅在后台填写并由后端加密存储与调用。",
+			DisclaimerShort: "嘉乐OZON——AI不包含任何第三方密钥；请在各开放平台与云厂商自助申请，仅在后台填写并由后端加密存储与调用。",
 	}
 
 	ai, err := s.PlainByGroup(ctx, 0, "ai")

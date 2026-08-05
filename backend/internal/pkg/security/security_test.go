@@ -3,7 +3,7 @@ package security_test
 import (
 	"testing"
 
-	"github.com/trademind-ai/trademind/backend/internal/pkg/security"
+	"github.com/cxa-maker/one/backend/internal/pkg/security"
 )
 
 func TestPIIMasking(t *testing.T) {

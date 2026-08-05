@@ -3,7 +3,7 @@ package configstatus
 import (
 	"context"
 
-	platformdouyin "github.com/trademind-ai/trademind/backend/internal/providers/platform/douyinshop"
+	platformdouyin "github.com/cxa-maker/one/backend/internal/providers/platform/douyinshop"
 )
 
 func (s *Service) p31SummaryItem(_ context.Context) Item {

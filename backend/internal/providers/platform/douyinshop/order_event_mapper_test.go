@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	platformdouyin "github.com/trademind-ai/trademind/backend/internal/providers/platform/douyinshop"
+	platformdouyin "github.com/cxa-maker/one/backend/internal/providers/platform/douyinshop"
 )
 
 func TestMapDouyinOrderWebhookEventFromFixture(t *testing.T) {

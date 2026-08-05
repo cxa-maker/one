@@ -1,6 +1,6 @@
 package configstatus
 
-import "github.com/trademind-ai/trademind/backend/internal/config"
+import "github.com/cxa-maker/one/backend/internal/config"
 
 // appendP4SecurityItems adds Phase P4 security readiness rows.
 func appendP4SecurityItems(items []Item, cfg *config.Config) []Item {

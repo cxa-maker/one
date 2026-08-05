@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"testing"
 
-	douyinshop "github.com/trademind-ai/trademind/backend/internal/providers/platform/douyinshop"
+	douyinshop "github.com/cxa-maker/one/backend/internal/providers/platform/douyinshop"
 )
 
 func TestParseOrderDetailRaw_Fixture(t *testing.T) {

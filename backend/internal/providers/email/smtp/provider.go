@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net/smtp"
 
-	"github.com/trademind-ai/trademind/backend/internal/providers/email"
+	"github.com/cxa-maker/one/backend/internal/providers/email"
 )
 
 type Config struct {

@@ -7,7 +7,7 @@ import (
 
 	goredis "github.com/redis/go-redis/v9"
 	"github.com/stretchr/testify/require"
-	"github.com/trademind-ai/trademind/backend/internal/testing/safeenv"
+	"github.com/cxa-maker/one/backend/internal/testing/safeenv"
 )
 
 func TestRedisListQueueRoundTripInIsolatedDB(t *testing.T) {

@@ -3,7 +3,7 @@ package aiproductimage
 import (
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/pkg/safedownload"
+	"github.com/cxa-maker/one/backend/internal/pkg/safedownload"
 )
 
 func safeDownloadUserMessage(err error) string {

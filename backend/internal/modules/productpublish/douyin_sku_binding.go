@@ -11,11 +11,11 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
 
-	douyinmetrics "github.com/trademind-ai/trademind/backend/internal/metrics/douyin"
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationlog"
-	"github.com/trademind-ai/trademind/backend/internal/modules/product"
-	"github.com/trademind-ai/trademind/backend/internal/modules/shop"
-	platformdouyin "github.com/trademind-ai/trademind/backend/internal/providers/platform/douyinshop"
+	douyinmetrics "github.com/cxa-maker/one/backend/internal/metrics/douyin"
+	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
+	"github.com/cxa-maker/one/backend/internal/modules/product"
+	"github.com/cxa-maker/one/backend/internal/modules/shop"
+	platformdouyin "github.com/cxa-maker/one/backend/internal/providers/platform/douyinshop"
 	"gorm.io/datatypes"
 )
 

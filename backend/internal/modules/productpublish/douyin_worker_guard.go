@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	douyinmetrics "github.com/trademind-ai/trademind/backend/internal/metrics/douyin"
-	platformdouyin "github.com/trademind-ai/trademind/backend/internal/providers/platform/douyinshop"
+	douyinmetrics "github.com/cxa-maker/one/backend/internal/metrics/douyin"
+	platformdouyin "github.com/cxa-maker/one/backend/internal/providers/platform/douyinshop"
 	"gorm.io/datatypes"
 )
 

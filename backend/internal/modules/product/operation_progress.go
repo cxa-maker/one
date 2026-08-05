@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/opslabels"
+	"github.com/cxa-maker/one/backend/internal/pkg/opslabels"
 	"gorm.io/gorm"
 )
 

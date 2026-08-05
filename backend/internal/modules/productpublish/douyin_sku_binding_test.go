@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
-	platformdouyin "github.com/trademind-ai/trademind/backend/internal/providers/platform/douyinshop"
+	platformdouyin "github.com/cxa-maker/one/backend/internal/providers/platform/douyinshop"
 )
 
 func TestMatchLocalSKUSkipsExistingBinding(t *testing.T) {

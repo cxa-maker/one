@@ -9,11 +9,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/settings"
-	"github.com/trademind-ai/trademind/backend/internal/providers/image/comfyui"
-	"github.com/trademind-ai/trademind/backend/internal/providers/image/dashscopeimage"
-	"github.com/trademind-ai/trademind/backend/internal/providers/image/openaiimage"
-	"github.com/trademind-ai/trademind/backend/internal/providers/image/removebg"
+	"github.com/cxa-maker/one/backend/internal/modules/settings"
+	"github.com/cxa-maker/one/backend/internal/providers/image/comfyui"
+	"github.com/cxa-maker/one/backend/internal/providers/image/dashscopeimage"
+	"github.com/cxa-maker/one/backend/internal/providers/image/openaiimage"
+	"github.com/cxa-maker/one/backend/internal/providers/image/removebg"
 )
 
 func timeoutSecFromImageMap(m map[string]string) int {

@@ -3,7 +3,7 @@ package imagetask
 import (
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/pkg/imagerender"
+	"github.com/cxa-maker/one/backend/internal/pkg/imagerender"
 )
 
 const (

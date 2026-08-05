@@ -11,8 +11,8 @@ import (
 	"github.com/google/uuid"
 	"gorm.io/datatypes"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationlog"
-	platformlazada "github.com/trademind-ai/trademind/backend/internal/providers/platform/lazada"
+	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
+	platformlazada "github.com/cxa-maker/one/backend/internal/providers/platform/lazada"
 )
 
 const lazadaOAuthRedisPrefix = "oauth:lazada:state:"

@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/providers/ai/deepseek"
-	"github.com/trademind-ai/trademind/backend/internal/providers/ai/openai"
-	openaicompat "github.com/trademind-ai/trademind/backend/internal/providers/ai/openai_compatible"
-	"github.com/trademind-ai/trademind/backend/internal/providers/ai/qwen"
+	"github.com/cxa-maker/one/backend/internal/providers/ai/deepseek"
+	"github.com/cxa-maker/one/backend/internal/providers/ai/openai"
+	openaicompat "github.com/cxa-maker/one/backend/internal/providers/ai/openai_compatible"
+	"github.com/cxa-maker/one/backend/internal/providers/ai/qwen"
 )
 
 // NewProvider builds a concrete Provider from resolved settings.

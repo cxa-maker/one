@@ -3,7 +3,7 @@ package douyinshop_test
 import (
 	"testing"
 
-	douyinshop "github.com/trademind-ai/trademind/backend/internal/providers/platform/douyinshop"
+	douyinshop "github.com/cxa-maker/one/backend/internal/providers/platform/douyinshop"
 )
 
 // TestFacadeCompile verifies that DouyinProvider interface is properly implemented.

@@ -6,7 +6,7 @@ import (
 	"fmt"
 
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/rdb"
+	"github.com/cxa-maker/one/backend/internal/rdb"
 )
 
 // ImageQueueMessage is JSON-serialized for Redis list LPUSH (producer → worker).

@@ -31,7 +31,7 @@ func doSPAPIFull(ctx context.Context, cfg RuntimeConfig, method, relPath string,
 	if err != nil {
 		return 0, nil, nil, err
 	}
-	req.Header.Set("User-Agent", "TradeMind-SPAPI/1.0")
+	req.Header.Set("User-Agent", "JialeOzonAI-SPAPI/1.0")
 	if strings.TrimSpace(accept) != "" {
 		req.Header.Set("Accept", strings.TrimSpace(accept))
 	}

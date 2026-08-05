@@ -10,10 +10,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/settings"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/httppublic"
-	platformp "github.com/trademind-ai/trademind/backend/internal/providers/platform"
-	"github.com/trademind-ai/trademind/backend/internal/providers/storage"
+	"github.com/cxa-maker/one/backend/internal/modules/settings"
+	"github.com/cxa-maker/one/backend/internal/pkg/httppublic"
+	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
+	"github.com/cxa-maker/one/backend/internal/providers/storage"
 )
 
 // tikTokListingImageFetcher resolves product listing images via Storage Provider or public HTTP (never logs secrets).

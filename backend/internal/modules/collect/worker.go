@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/modules/worker"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/tasktenant"
+	"github.com/cxa-maker/one/backend/internal/modules/worker"
+	"github.com/cxa-maker/one/backend/internal/pkg/tasktenant"
 )
 
 func normalizeCollectConcurrency(n int) int {

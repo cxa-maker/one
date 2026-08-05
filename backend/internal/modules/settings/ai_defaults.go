@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/encrypt"
-	aigate "github.com/trademind-ai/trademind/backend/internal/providers/ai"
+	"github.com/cxa-maker/one/backend/internal/encrypt"
+	aigate "github.com/cxa-maker/one/backend/internal/providers/ai"
 	"gorm.io/gorm"
 )
 

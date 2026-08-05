@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	platformp "github.com/trademind-ai/trademind/backend/internal/providers/platform"
+	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
 )
 
 func partnerValuePresent(val string) bool {

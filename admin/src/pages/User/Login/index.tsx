@@ -145,8 +145,8 @@ export default function LoginPage() {
             <div className="brand">
               <BrandLogo height={32} />
               <div>
-                <div className="brand-text">贸灵 TradeMind</div>
-                <div className="brand-sub">AI-Powered Cross-Border ERP</div>
+                <div className="brand-text">嘉乐OZON——AI</div>
+                <div className="brand-sub">OZON AI 跨境运营工作台</div>
               </div>
             </div>
 
@@ -161,7 +161,7 @@ export default function LoginPage() {
                 刊登与库存增长
               </h1>
               <p>
-                从商品采集、图片处理、AI 优化到多平台刊登，TradeMind
+                从商品采集、图片处理、AI 优化到 OZON 上架，嘉乐OZON——AI
                 把高频运营动作收进一个更轻、更快的工作台。
               </p>
             </div>
@@ -211,8 +211,8 @@ export default function LoginPage() {
             <div className="mobile-brand">
               <BrandLogo height={28} />
               <div>
-                <div className="brand-text">贸灵 TradeMind</div>
-                <div className="brand-sub">AI-Powered Cross-Border ERP</div>
+                <div className="brand-text">嘉乐OZON——AI</div>
+                <div className="brand-sub">OZON AI 跨境运营工作台</div>
               </div>
             </div>
 
@@ -232,7 +232,7 @@ export default function LoginPage() {
                 <h2>{activeTab === 'login' ? '欢迎回来' : '注册账号'}</h2>
                 <p>
                   {activeTab === 'login'
-                    ? '登录你的 TradeMind 工作台'
+                    ? '登录你的嘉乐OZON——AI工作台'
                     : '开启你的 AI 跨境之旅'}
                 </p>
               </div>

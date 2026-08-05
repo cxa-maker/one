@@ -27,7 +27,7 @@ func NewRegistry(namespace string) *Registry {
 		reg.MustRegister(prometheus.NewGauge(prometheus.GaugeOpts{
 			Namespace: namespace,
 			Name:      "build_info",
-			Help:      "TradeMind build info",
+			Help:      "嘉乐OZON——AI build info",
 			ConstLabels: prometheus.Labels{
 				"service": namespace,
 			},

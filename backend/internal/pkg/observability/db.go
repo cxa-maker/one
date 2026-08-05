@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/trademind-ai/trademind/backend/internal/pkg/metrics"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/tracing"
+	"github.com/cxa-maker/one/backend/internal/pkg/metrics"
+	"github.com/cxa-maker/one/backend/internal/pkg/tracing"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/trace"

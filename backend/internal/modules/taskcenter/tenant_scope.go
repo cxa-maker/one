@@ -2,8 +2,8 @@ package taskcenter
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/adminperm"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/tenantquery"
+	"github.com/cxa-maker/one/backend/internal/pkg/adminperm"
+	"github.com/cxa-maker/one/backend/internal/pkg/tenantquery"
 	"gorm.io/gorm"
 )
 

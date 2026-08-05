@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/trademind-ai/trademind/backend/internal/providers/ai/compatclient"
-	"github.com/trademind-ai/trademind/backend/internal/providers/ai/errmap"
+	"github.com/cxa-maker/one/backend/internal/providers/ai/compatclient"
+	"github.com/cxa-maker/one/backend/internal/providers/ai/errmap"
 )
 
 const providerLabel = "OpenAI 兼容"

@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	douyinshop "github.com/trademind-ai/trademind/backend/internal/providers/platform/douyinshop"
+	douyinshop "github.com/cxa-maker/one/backend/internal/providers/platform/douyinshop"
 )
 
 // DouyinVerifier adapts douyinshop.DouyinSignatureVerifier to SignatureVerifier.

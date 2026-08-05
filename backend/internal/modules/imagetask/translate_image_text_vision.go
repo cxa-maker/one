@@ -14,9 +14,9 @@ import (
 	"strings"
 	"time"
 
-	aigate "github.com/trademind-ai/trademind/backend/internal/providers/ai"
-	"github.com/trademind-ai/trademind/backend/internal/providers/ocr"
-	"github.com/trademind-ai/trademind/backend/internal/providers/ocr/ocrerror"
+	aigate "github.com/cxa-maker/one/backend/internal/providers/ai"
+	"github.com/cxa-maker/one/backend/internal/providers/ocr"
+	"github.com/cxa-maker/one/backend/internal/providers/ocr/ocrerror"
 )
 
 const layoutWarningPartialOCR = "partial_text_detected"

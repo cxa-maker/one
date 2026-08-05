@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/modules/collect"
-	"github.com/trademind-ai/trademind/backend/internal/modules/taskcenter"
+	"github.com/cxa-maker/one/backend/internal/modules/collect"
+	"github.com/cxa-maker/one/backend/internal/modules/taskcenter"
 )
 
 // --- Task Center IDOR (6 cases) ---

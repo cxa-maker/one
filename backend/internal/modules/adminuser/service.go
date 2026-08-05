@@ -9,10 +9,10 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/modules/admin"
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationlog"
-	"github.com/trademind-ai/trademind/backend/internal/modules/shop"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/adminperm"
+	"github.com/cxa-maker/one/backend/internal/modules/admin"
+	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
+	"github.com/cxa-maker/one/backend/internal/modules/shop"
+	"github.com/cxa-maker/one/backend/internal/pkg/adminperm"
 	"golang.org/x/crypto/bcrypt"
 	"gorm.io/gorm"
 )

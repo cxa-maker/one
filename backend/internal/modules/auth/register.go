@@ -5,10 +5,10 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin"
-	"github.com/trademind-ai/trademind/backend/internal/modules/admin"
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationlog"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/model"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/response"
+	"github.com/cxa-maker/one/backend/internal/modules/admin"
+	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
+	"github.com/cxa-maker/one/backend/internal/pkg/model"
+	"github.com/cxa-maker/one/backend/internal/pkg/response"
 	"golang.org/x/crypto/bcrypt"
 )
 

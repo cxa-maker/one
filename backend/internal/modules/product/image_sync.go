@@ -11,8 +11,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/modules/files"
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationlog"
+	"github.com/cxa-maker/one/backend/internal/modules/files"
+	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
 )
 
 // SyncImagesBody selects which image groups to mirror into platform storage.
@@ -74,7 +74,7 @@ func (s *Service) fetchRemoteImage(ctx context.Context, rawURL string) ([]byte, 
 	if err != nil {
 		return nil, err
 	}
-	req.Header.Set("User-Agent", "TradeMind-ImageSync/1.0")
+	req.Header.Set("User-Agent", "JialeOzonAI-ImageSync/1.0")
 	req.Header.Set("Accept", "image/*")
 	cli := &http.Client{Timeout: 45 * time.Second}
 	resp, err := cli.Do(req)

@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	platformlazada "github.com/trademind-ai/trademind/backend/internal/providers/platform/lazada"
+	platformlazada "github.com/cxa-maker/one/backend/internal/providers/platform/lazada"
 )
 
 // LazadaShopsBridge satisfies platform/lazada persistence hooks.

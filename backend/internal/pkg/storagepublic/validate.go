@@ -6,8 +6,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/config"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/httppublic"
+	"github.com/cxa-maker/one/backend/internal/config"
+	"github.com/cxa-maker/one/backend/internal/pkg/httppublic"
 )
 
 // ValidationIssue is one public_base rule violation.

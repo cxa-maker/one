@@ -8,18 +8,18 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/modules/idempotency"
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationlog"
-	"github.com/trademind-ai/trademind/backend/internal/modules/settings"
+	"github.com/cxa-maker/one/backend/internal/modules/idempotency"
+	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
+	"github.com/cxa-maker/one/backend/internal/modules/settings"
 	"gorm.io/gorm"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/aiprompt"
-	"github.com/trademind-ai/trademind/backend/internal/modules/aitask"
-	"github.com/trademind-ai/trademind/backend/internal/modules/order"
-	"github.com/trademind-ai/trademind/backend/internal/modules/shop"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/adminperm"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/repository"
-	aigate "github.com/trademind-ai/trademind/backend/internal/providers/ai"
+	"github.com/cxa-maker/one/backend/internal/modules/aiprompt"
+	"github.com/cxa-maker/one/backend/internal/modules/aitask"
+	"github.com/cxa-maker/one/backend/internal/modules/order"
+	"github.com/cxa-maker/one/backend/internal/modules/shop"
+	"github.com/cxa-maker/one/backend/internal/pkg/adminperm"
+	"github.com/cxa-maker/one/backend/internal/pkg/repository"
+	aigate "github.com/cxa-maker/one/backend/internal/providers/ai"
 )
 
 // Service orchestrates customer chat MVP (manual inbox + AI suggestions).

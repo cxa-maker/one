@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/trademind-ai/trademind/backend/internal/pkg/providerhealth"
+	"github.com/cxa-maker/one/backend/internal/pkg/providerhealth"
 )
 
 // ConfigHealthChecker checks that the Douyin provider is minimally configured.

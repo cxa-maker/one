@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin"
-	"github.com/trademind-ai/trademind/backend/internal/modules/settings"
-	"github.com/trademind-ai/trademind/backend/internal/providers/storage/localroot"
+	"github.com/cxa-maker/one/backend/internal/modules/settings"
+	"github.com/cxa-maker/one/backend/internal/providers/storage/localroot"
 )
 
 // StaticHandler serves uploaded local files from configured storage.local_root.

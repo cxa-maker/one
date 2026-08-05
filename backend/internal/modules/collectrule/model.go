@@ -2,7 +2,7 @@ package collectrule
 
 import (
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/model"
+	"github.com/cxa-maker/one/backend/internal/pkg/model"
 	"gorm.io/datatypes"
 )
 

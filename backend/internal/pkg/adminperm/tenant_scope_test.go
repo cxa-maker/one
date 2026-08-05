@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/gin-gonic/gin"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/ctxkey"
+	"github.com/cxa-maker/one/backend/internal/pkg/ctxkey"
 )
 
 func TestTenantIDFromGin_allowsLegacyZero(t *testing.T) {

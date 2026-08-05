@@ -8,8 +8,8 @@ import (
 	"unicode"
 
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/imagerender"
-	imgprov "github.com/trademind-ai/trademind/backend/internal/providers/image"
+	"github.com/cxa-maker/one/backend/internal/pkg/imagerender"
+	imgprov "github.com/cxa-maker/one/backend/internal/providers/image"
 )
 
 func (s *Service) executeTranslateDeterministic(

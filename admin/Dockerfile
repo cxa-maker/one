@@ -11,7 +11,7 @@ COPY collector ./collector
 
 RUN pnpm install --frozen-lockfile
 
-RUN pnpm --filter @trademind/admin build
+RUN pnpm --filter @jiale-ozon-ai/admin build
 
 FROM nginx:1.31-alpine AS runtime
 

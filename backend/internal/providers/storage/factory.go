@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"strings"
 
-	cosstorage "github.com/trademind-ai/trademind/backend/internal/providers/storage/cos"
-	"github.com/trademind-ai/trademind/backend/internal/providers/storage/local"
-	"github.com/trademind-ai/trademind/backend/internal/providers/storage/localroot"
-	ossstorage "github.com/trademind-ai/trademind/backend/internal/providers/storage/oss"
-	"github.com/trademind-ai/trademind/backend/internal/providers/storage/s3store"
+	cosstorage "github.com/cxa-maker/one/backend/internal/providers/storage/cos"
+	"github.com/cxa-maker/one/backend/internal/providers/storage/local"
+	"github.com/cxa-maker/one/backend/internal/providers/storage/localroot"
+	ossstorage "github.com/cxa-maker/one/backend/internal/providers/storage/oss"
+	"github.com/cxa-maker/one/backend/internal/providers/storage/s3store"
 )
 
 // defaultLocalPublicBase matches settings seed and dev proxy (/static → backend).

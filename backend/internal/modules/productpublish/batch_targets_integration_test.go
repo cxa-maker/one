@@ -14,9 +14,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/glebarez/sqlite"
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/modules/product"
-	"github.com/trademind-ai/trademind/backend/internal/modules/shop"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/model"
+	"github.com/cxa-maker/one/backend/internal/modules/product"
+	"github.com/cxa-maker/one/backend/internal/modules/shop"
+	"github.com/cxa-maker/one/backend/internal/pkg/model"
 	"gorm.io/datatypes"
 	"gorm.io/gorm"
 )

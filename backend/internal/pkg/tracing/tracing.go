@@ -426,7 +426,7 @@ type otlpArrayValue struct {
 func buildOTLPTraceExportRequest(spans []sdktrace.ReadOnlySpan) otlpTraceExportRequest {
 	scopeSpans := make(map[string]*otlpScopeSpans)
 	resourceAttrs := []attribute.KeyValue{
-		semconv.ServiceName("trademind-api"),
+		semconv.ServiceName("jiale-ozon-ai-api"),
 	}
 	for _, sp := range spans {
 		if sp == nil {

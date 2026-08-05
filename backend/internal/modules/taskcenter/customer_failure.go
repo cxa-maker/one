@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/modules/customerchat"
+	"github.com/cxa-maker/one/backend/internal/modules/customerchat"
 )
 
 func (s *Service) listCustomerFailures(ctx context.Context, p ListFailureParams, now time.Time, fetchLimit int, cur TaskSourceCursor) ([]UnifiedTaskDTO, error) {

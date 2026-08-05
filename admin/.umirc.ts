@@ -3,7 +3,7 @@ import { elevationTokens, layoutTokens, themeTokens } from './src/constants/layo
 import routes from './config/routes';
 
 export default defineConfig({
-  title: '贸灵 TradeMind',
+  title: '嘉乐OZON——AI',
   npmClient: 'npm',
   antd: {
     appConfig: {},

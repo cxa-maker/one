@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/trademind-ai/trademind/backend/internal/pkg/pagination"
+	"github.com/cxa-maker/one/backend/internal/pkg/pagination"
 )
 
 func TestTaskMergeCursorRoundTrip(t *testing.T) {

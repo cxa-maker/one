@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	platformp "github.com/trademind-ai/trademind/backend/internal/providers/platform"
+	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
 )
 
 // DouyinProvider is a thin facade exposing all P3 capability groups.

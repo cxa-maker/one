@@ -2,7 +2,7 @@ package customersync
 
 import (
 	"context"
-	"github.com/trademind-ai/trademind/backend/internal/rdb"
+	"github.com/cxa-maker/one/backend/internal/rdb"
 )
 
 // CustomerMessageSyncQueueHealthBlock mirrors Redis LIST metrics for /health.

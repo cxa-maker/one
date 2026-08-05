@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/trademind-ai/trademind/backend/internal/config"
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationlog"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/crypto"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/metrics"
+	"github.com/cxa-maker/one/backend/internal/config"
+	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
+	"github.com/cxa-maker/one/backend/internal/pkg/crypto"
+	"github.com/cxa-maker/one/backend/internal/pkg/metrics"
 	"gorm.io/gorm"
 )
 

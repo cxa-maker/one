@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	douyinmetrics "github.com/trademind-ai/trademind/backend/internal/metrics/douyin"
-	"github.com/trademind-ai/trademind/backend/internal/modules/productpublish"
-	"github.com/trademind-ai/trademind/backend/internal/modules/settings"
-	"github.com/trademind-ai/trademind/backend/internal/modules/shop"
-	platformdouyin "github.com/trademind-ai/trademind/backend/internal/providers/platform/douyinshop"
+	douyinmetrics "github.com/cxa-maker/one/backend/internal/metrics/douyin"
+	"github.com/cxa-maker/one/backend/internal/modules/productpublish"
+	"github.com/cxa-maker/one/backend/internal/modules/settings"
+	"github.com/cxa-maker/one/backend/internal/modules/shop"
+	platformdouyin "github.com/cxa-maker/one/backend/internal/providers/platform/douyinshop"
 )
 
 const (

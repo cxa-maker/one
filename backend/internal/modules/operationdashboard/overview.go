@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/modules/configstatus"
-	"github.com/trademind-ai/trademind/backend/internal/modules/taskcenter/failureclassifier"
+	"github.com/cxa-maker/one/backend/internal/modules/configstatus"
+	"github.com/cxa-maker/one/backend/internal/modules/taskcenter/failureclassifier"
 )
 
 // OverviewSection is one domain bucket in GET /dashboard/overview.

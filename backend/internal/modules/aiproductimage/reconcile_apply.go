@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/modules/idempotency"
-	"github.com/trademind-ai/trademind/backend/internal/modules/product"
+	"github.com/cxa-maker/one/backend/internal/modules/idempotency"
+	"github.com/cxa-maker/one/backend/internal/modules/product"
 )
 
 // ReconcileImageApply repairs idempotency when image apply committed but Complete did not run.

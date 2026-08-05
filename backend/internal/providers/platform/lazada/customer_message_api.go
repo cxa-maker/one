@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"strings"
 
-	platformp "github.com/trademind-ai/trademind/backend/internal/providers/platform"
+	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
 )
 
 func lazadaHTTPAndBodySummary(httpStatus int, root map[string]any, err error) string {

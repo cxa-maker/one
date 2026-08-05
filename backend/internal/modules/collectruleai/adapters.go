@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/collect"
+	"github.com/cxa-maker/one/backend/internal/modules/collect"
 )
 
 type pageAnalyzerAdapter struct {

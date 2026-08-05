@@ -11,7 +11,7 @@ import (
 	"gorm.io/datatypes"
 	"gorm.io/gorm"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationlog"
+	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
 )
 
 func (s *Service) batchMaxURLs() int {

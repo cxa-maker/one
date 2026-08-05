@@ -8,7 +8,7 @@ import (
 	"time"
 
 	_ "github.com/glebarez/go-sqlite"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/metrics"
+	"github.com/cxa-maker/one/backend/internal/pkg/metrics"
 )
 
 func TestDBStatsCollectorAndInstrumentedDB(t *testing.T) {

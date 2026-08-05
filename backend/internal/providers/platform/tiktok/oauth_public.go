@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	platformp "github.com/trademind-ai/trademind/backend/internal/providers/platform"
+	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
 )
 
 // ExchangeAuthCode exchanges an OAuth authorization code for tokens (shop OAuth callback).

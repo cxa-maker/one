@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/trademind-ai/trademind/backend/internal/modules/shop"
+	"github.com/cxa-maker/one/backend/internal/modules/shop"
 )
 
 // DashboardSummary is customer center home KPIs.

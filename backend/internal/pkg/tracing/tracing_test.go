@@ -297,7 +297,7 @@ func testSpanBatch() []sdktrace.ReadOnlySpan {
 	now := time.Unix(1700000000, 123)
 	res := resource.NewWithAttributes(
 		semconv.SchemaURL,
-		semconv.ServiceName("trademind-api"),
+		semconv.ServiceName("jiale-ozon-ai-api"),
 		semconv.ServiceVersion("test"),
 		attribute.String("deployment.environment", "test"),
 	)

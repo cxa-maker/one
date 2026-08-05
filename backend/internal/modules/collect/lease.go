@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/tasklease"
+	"github.com/cxa-maker/one/backend/internal/pkg/tasklease"
 )
 
 func (s *Service) collectLeaseTTL() time.Duration {

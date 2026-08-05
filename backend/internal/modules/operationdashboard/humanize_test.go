@@ -3,7 +3,7 @@ package operationdashboard
 import (
 	"testing"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/imagetask"
+	"github.com/cxa-maker/one/backend/internal/modules/imagetask"
 )
 
 func TestHumanizeTaskStatusSuccessWithWarnings(t *testing.T) {

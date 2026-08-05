@@ -12,11 +12,11 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/glebarez/sqlite"
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/modules/idempotency"
-	"github.com/trademind-ai/trademind/backend/internal/modules/product"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/adminperm"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/ctxkey"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/security"
+	"github.com/cxa-maker/one/backend/internal/modules/idempotency"
+	"github.com/cxa-maker/one/backend/internal/modules/product"
+	"github.com/cxa-maker/one/backend/internal/pkg/adminperm"
+	"github.com/cxa-maker/one/backend/internal/pkg/ctxkey"
+	"github.com/cxa-maker/one/backend/internal/pkg/security"
 	"gorm.io/gorm"
 )
 

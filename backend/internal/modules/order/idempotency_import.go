@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/modules/idempotency"
+	"github.com/cxa-maker/one/backend/internal/modules/idempotency"
 )
 
 type importMeta struct {

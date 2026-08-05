@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	platformp "github.com/trademind-ai/trademind/backend/internal/providers/platform"
+	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
 )
 
 func extractDataPayload(root map[string]interface{}) map[string]interface{} {

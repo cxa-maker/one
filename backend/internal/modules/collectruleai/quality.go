@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/collectrule"
+	"github.com/cxa-maker/one/backend/internal/modules/collectrule"
 )
 
 const qualityEnableThreshold = 60

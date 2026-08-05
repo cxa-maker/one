@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/crypto"
+	"github.com/cxa-maker/one/backend/internal/pkg/crypto"
 	"gorm.io/gorm"
 )
 

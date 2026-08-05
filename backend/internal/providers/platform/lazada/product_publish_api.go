@@ -13,8 +13,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/pkg/httppublic"
-	platformp "github.com/trademind-ai/trademind/backend/internal/providers/platform"
+	"github.com/cxa-maker/one/backend/internal/pkg/httppublic"
+	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
 )
 
 const maxLazadaListingImageBytes = 5 << 20

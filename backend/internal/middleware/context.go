@@ -1,6 +1,6 @@
 package middleware
 
-import "github.com/trademind-ai/trademind/backend/internal/pkg/ctxkey"
+import "github.com/cxa-maker/one/backend/internal/pkg/ctxkey"
 
 const (
 	// TraceIDHeader is the inbound/outbound request correlation header.

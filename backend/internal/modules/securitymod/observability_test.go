@@ -3,7 +3,7 @@ package securitymod
 import (
 	"testing"
 
-	"github.com/trademind-ai/trademind/backend/internal/pkg/metrics"
+	"github.com/cxa-maker/one/backend/internal/pkg/metrics"
 )
 
 func TestSecurityObservabilityRecordsMetrics(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"context"
 	"strings"
 
-	platformp "github.com/trademind-ai/trademind/backend/internal/providers/platform"
+	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
 )
 
 func mergeStringMaps(overlay map[string]string, bases ...map[string]string) map[string]string {

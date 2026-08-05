@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/glebarez/sqlite"
-	"github.com/trademind-ai/trademind/backend/internal/database"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/metrics"
+	"github.com/cxa-maker/one/backend/internal/database"
+	"github.com/cxa-maker/one/backend/internal/pkg/metrics"
 	"gorm.io/gorm"
 )
 

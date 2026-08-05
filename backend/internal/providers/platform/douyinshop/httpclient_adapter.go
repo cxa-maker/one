@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/trademind-ai/trademind/backend/internal/pkg/httpclient"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/providerlimit"
+	"github.com/cxa-maker/one/backend/internal/pkg/httpclient"
+	"github.com/cxa-maker/one/backend/internal/pkg/providerlimit"
 )
 
 var (
@@ -35,7 +35,7 @@ func SharedHTTPDoer() HTTPDoer {
 	}
 	cfg := httpclient.DefaultConfig()
 	cfg.RequestTimeout = 60 * time.Second
-	cfg.UserAgent = "TradeMind-DouyinShop/1.0"
+	cfg.UserAgent = "JialeOzonAI-DouyinShop/1.0"
 	cli := httpclient.New(cfg, slog.Default(), sharedMaxConc)
 	br := httpclient.NewCircuitBreaker(5, 30*time.Second)
 	cli.SetCircuitBreaker(br)

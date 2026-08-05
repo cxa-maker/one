@@ -3,8 +3,8 @@ package ai
 import (
 	"context"
 
-	"github.com/trademind-ai/trademind/backend/internal/providers/ai/compatclient"
-	"github.com/trademind-ai/trademind/backend/internal/providers/ai/errmap"
+	"github.com/cxa-maker/one/backend/internal/providers/ai/compatclient"
+	"github.com/cxa-maker/one/backend/internal/providers/ai/errmap"
 )
 
 type compatCaller interface {

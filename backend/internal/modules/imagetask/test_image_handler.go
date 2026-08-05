@@ -13,11 +13,11 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationlog"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/response"
-	imgprov "github.com/trademind-ai/trademind/backend/internal/providers/image"
-	"github.com/trademind-ai/trademind/backend/internal/providers/ocr"
-	"github.com/trademind-ai/trademind/backend/internal/providers/ocr/ocrerror"
+	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
+	"github.com/cxa-maker/one/backend/internal/pkg/response"
+	imgprov "github.com/cxa-maker/one/backend/internal/providers/image"
+	"github.com/cxa-maker/one/backend/internal/providers/ocr"
+	"github.com/cxa-maker/one/backend/internal/providers/ocr/ocrerror"
 )
 
 type testImageBody struct {

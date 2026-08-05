@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "admin-typescript",
-  "command": "pnpm --filter @trademind/admin exec tsc --noEmit --skipLibCheck",
+  "command": "pnpm --filter @jiale-ozon-ai/admin exec tsc --noEmit --skipLibCheck",
   "normalization": {
     "path": "repository-relative with forward slashes and admin/ prefix",
     "message": "collapsed whitespace, quotes normalized, line and column removed",

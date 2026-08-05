@@ -3,7 +3,7 @@ package inventory
 import (
 	"context"
 
-	"github.com/trademind-ai/trademind/backend/internal/rdb"
+	"github.com/cxa-maker/one/backend/internal/rdb"
 )
 
 // InventorySyncQueueHealthBlock mirrors Redis LIST metrics for /health.

@@ -3,10 +3,10 @@ package database
 import (
 	"fmt"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/admin"
-	"github.com/trademind-ai/trademind/backend/internal/modules/auth"
-	"github.com/trademind-ai/trademind/backend/internal/modules/files"
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationlog"
+	"github.com/cxa-maker/one/backend/internal/modules/admin"
+	"github.com/cxa-maker/one/backend/internal/modules/auth"
+	"github.com/cxa-maker/one/backend/internal/modules/files"
+	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
 	"gorm.io/gorm"
 )
 

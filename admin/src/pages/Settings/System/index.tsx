@@ -222,7 +222,7 @@ export default function SystemSettingsPage() {
             <Row gutter={[24, 0]}>
               <Col xs={24} md={12} lg={10}>
                 <Form.Item label="站点名称" name="site_name" rules={[{ required: true, message: '请输入站点名称' }]}>
-                  <Input placeholder="贸灵 TradeMind" />
+                  <Input placeholder="嘉乐OZON——AI" />
                 </Form.Item>
               </Col>
               <Col xs={24} md={12} lg={10}>

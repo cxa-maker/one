@@ -9,7 +9,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/trademind-ai/trademind/backend/internal/pkg/backupruntime"
+	"github.com/cxa-maker/one/backend/internal/pkg/backupruntime"
 )
 
 // ReleaseManifest is the P6 release metadata contract. It intentionally excludes secrets.

@@ -7,7 +7,7 @@ import (
 
 	"github.com/google/uuid"
 
-	platformamazon "github.com/trademind-ai/trademind/backend/internal/providers/platform/amazon"
+	platformamazon "github.com/cxa-maker/one/backend/internal/providers/platform/amazon"
 )
 
 // AmazonShopsBridge satisfies platform/amazon persistence hooks.

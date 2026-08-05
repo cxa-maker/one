@@ -13,7 +13,7 @@ func TestResolve_relativeUsesRepoRoot(t *testing.T) {
 	}
 	// package dir: backend/internal/providers/storage/localroot
 	repo := filepath.Clean(filepath.Join(wd, "..", "..", "..", "..", ".."))
-	t.Setenv("TRADEMIND_REPO_ROOT", repo)
+	t.Setenv("JIALE_OZON_AI_REPO_ROOT", repo)
 
 	got, err := Resolve("data/uploads")
 	if err != nil {

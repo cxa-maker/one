@@ -3,7 +3,7 @@ package settings
 import (
 	"context"
 
-	"github.com/trademind-ai/trademind/backend/internal/providers/storage/localroot"
+	"github.com/cxa-maker/one/backend/internal/providers/storage/localroot"
 	"gorm.io/gorm"
 )
 

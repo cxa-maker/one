@@ -6,14 +6,14 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/modules/aiproductimage"
-	"github.com/trademind-ai/trademind/backend/internal/modules/aiproducttext"
-	"github.com/trademind-ai/trademind/backend/internal/modules/collect"
-	"github.com/trademind-ai/trademind/backend/internal/modules/customersync"
-	"github.com/trademind-ai/trademind/backend/internal/modules/imagetask"
-	"github.com/trademind-ai/trademind/backend/internal/modules/inventory"
-	"github.com/trademind-ai/trademind/backend/internal/modules/ordersync"
-	"github.com/trademind-ai/trademind/backend/internal/modules/productpublish"
+	"github.com/cxa-maker/one/backend/internal/modules/aiproductimage"
+	"github.com/cxa-maker/one/backend/internal/modules/aiproducttext"
+	"github.com/cxa-maker/one/backend/internal/modules/collect"
+	"github.com/cxa-maker/one/backend/internal/modules/customersync"
+	"github.com/cxa-maker/one/backend/internal/modules/imagetask"
+	"github.com/cxa-maker/one/backend/internal/modules/inventory"
+	"github.com/cxa-maker/one/backend/internal/modules/ordersync"
+	"github.com/cxa-maker/one/backend/internal/modules/productpublish"
 	"gorm.io/gorm"
 )
 

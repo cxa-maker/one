@@ -8,11 +8,11 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	douyinmetrics "github.com/trademind-ai/trademind/backend/internal/metrics/douyin"
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationlog"
-	"github.com/trademind-ai/trademind/backend/internal/modules/product"
-	"github.com/trademind-ai/trademind/backend/internal/modules/productpublish"
-	platformp "github.com/trademind-ai/trademind/backend/internal/providers/platform"
+	douyinmetrics "github.com/cxa-maker/one/backend/internal/metrics/douyin"
+	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
+	"github.com/cxa-maker/one/backend/internal/modules/product"
+	"github.com/cxa-maker/one/backend/internal/modules/productpublish"
+	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
 	"gorm.io/datatypes"
 )
 

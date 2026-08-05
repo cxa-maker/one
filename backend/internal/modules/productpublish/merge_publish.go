@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	platformp "github.com/trademind-ai/trademind/backend/internal/providers/platform"
+	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
 )
 
 // ApplyPublishOptions merges camelCase/snake overrides from the publish modal onto base settings values.

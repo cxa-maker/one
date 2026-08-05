@@ -10,11 +10,11 @@ import (
 
 	"github.com/glebarez/sqlite"
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/modules/aiproductimage"
-	"github.com/trademind-ai/trademind/backend/internal/modules/aiproducttext"
-	"github.com/trademind-ai/trademind/backend/internal/modules/product"
-	"github.com/trademind-ai/trademind/backend/internal/modules/productcheck"
-	"github.com/trademind-ai/trademind/backend/internal/modules/productpublish"
+	"github.com/cxa-maker/one/backend/internal/modules/aiproductimage"
+	"github.com/cxa-maker/one/backend/internal/modules/aiproducttext"
+	"github.com/cxa-maker/one/backend/internal/modules/product"
+	"github.com/cxa-maker/one/backend/internal/modules/productcheck"
+	"github.com/cxa-maker/one/backend/internal/modules/productpublish"
 	"gorm.io/datatypes"
 	"gorm.io/gorm"
 )

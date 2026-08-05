@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/config"
+	"github.com/cxa-maker/one/backend/internal/config"
 )
 
 func (s *Service) reliabilityFoundationItem(ctx context.Context) Item {

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	platformp "github.com/trademind-ai/trademind/backend/internal/providers/platform"
+	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
 )
 
 // shopeeChatTextMessageType is the documented int code for plain text chat messages (confirm in Partner Center if send fails).

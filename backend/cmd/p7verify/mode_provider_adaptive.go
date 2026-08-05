@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/trademind-ai/trademind/backend/internal/pkg/providerlimit"
+	"github.com/cxa-maker/one/backend/internal/pkg/providerlimit"
 )
 
 type providerAdaptiveReport struct {

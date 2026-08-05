@@ -8,10 +8,10 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/trademind-ai/trademind/backend/internal/encrypt"
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationlog"
-	"github.com/trademind-ai/trademind/backend/internal/modules/settings"
-	platformp "github.com/trademind-ai/trademind/backend/internal/providers/platform"
+	"github.com/cxa-maker/one/backend/internal/encrypt"
+	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
+	"github.com/cxa-maker/one/backend/internal/modules/settings"
+	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
 )
 
 type PlatformPublishSettingsDTO struct {

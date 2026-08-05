@@ -12,8 +12,8 @@ import (
 	"github.com/google/uuid"
 	"gorm.io/datatypes"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationlog"
-	platformshopee "github.com/trademind-ai/trademind/backend/internal/providers/platform/shopee"
+	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
+	platformshopee "github.com/cxa-maker/one/backend/internal/providers/platform/shopee"
 )
 
 const shopeeOAuthRedisPrefix = "oauth:shopee:state:"

@@ -9,13 +9,13 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/modules/inventory"
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationlog"
-	"github.com/trademind-ai/trademind/backend/internal/modules/order"
-	"github.com/trademind-ai/trademind/backend/internal/modules/product"
-	"github.com/trademind-ai/trademind/backend/internal/modules/taskcenter"
-	"github.com/trademind-ai/trademind/backend/internal/modules/webhook"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/pagination"
+	"github.com/cxa-maker/one/backend/internal/modules/inventory"
+	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
+	"github.com/cxa-maker/one/backend/internal/modules/order"
+	"github.com/cxa-maker/one/backend/internal/modules/product"
+	"github.com/cxa-maker/one/backend/internal/modules/taskcenter"
+	"github.com/cxa-maker/one/backend/internal/modules/webhook"
+	"github.com/cxa-maker/one/backend/internal/pkg/pagination"
 )
 
 type paginationListReport struct {

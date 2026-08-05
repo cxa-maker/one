@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/files"
+	"github.com/cxa-maker/one/backend/internal/modules/files"
 )
 
 func (s *Service) uploadTranslateDebugPNG(

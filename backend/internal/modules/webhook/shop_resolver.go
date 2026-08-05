@@ -12,8 +12,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/config"
-	"github.com/trademind-ai/trademind/backend/internal/modules/shop"
+	"github.com/cxa-maker/one/backend/internal/config"
+	"github.com/cxa-maker/one/backend/internal/modules/shop"
 	"gorm.io/gorm"
 )
 
@@ -230,7 +230,7 @@ func ExtractResolveWebhookShopInput(platform, eventType string, headers http.Hea
 	if shopID := firstHeader(headers, "X-Douyin-Shop-Id", "X-Platform-Shop-Id", "X-Shop-Id"); shopID != "" {
 		input.PlatformShopID = shopID
 	}
-	if id := firstHeader(headers, "X-Webhook-Secret-Binding-Id", "X-TradeMind-Secret-Binding-Id"); id != "" {
+	if id := firstHeader(headers, "X-Webhook-Secret-Binding-Id", "X-Jiale-Ozon-Ai-Secret-Binding-Id", "X-TradeMind-Secret-Binding-Id"); id != "" {
 		if parsed, err := uuid.Parse(id); err == nil {
 			input.WebhookSecretBindingID = &parsed
 		}

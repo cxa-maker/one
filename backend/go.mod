@@ -1,4 +1,4 @@
-module github.com/trademind-ai/trademind/backend
+module github.com/cxa-maker/one/backend
 
 go 1.25.0
 

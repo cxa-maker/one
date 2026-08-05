@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/redis/go-redis/v9"
-	"github.com/trademind-ai/trademind/backend/internal/config"
+	"github.com/cxa-maker/one/backend/internal/config"
 )
 
 // Client wraps the go-redis client for cache and future queue workers.

@@ -1,7 +1,7 @@
 package productcheck
 
 import (
-	"github.com/trademind-ai/trademind/backend/internal/pkg/opslabels"
+	"github.com/cxa-maker/one/backend/internal/pkg/opslabels"
 )
 
 // LocalizeCheckItem enriches a check item with user-facing Chinese fields.

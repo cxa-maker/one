@@ -41,6 +41,6 @@ export const MAIL_FIELD_PLACEHOLDER = {
   username: '通常与发件人邮箱相同',
   password: '保存后脱敏显示；留空则不修改已存密码',
   from: 'noreply@example.com',
-  fromName: '贸灵 TradeMind',
+  fromName: '嘉乐OZON——AI',
   testTo: 'test@example.com',
 } as const;

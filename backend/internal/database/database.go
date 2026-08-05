@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/trademind-ai/trademind/backend/internal/config"
+	"github.com/cxa-maker/one/backend/internal/config"
 	gmysql "gorm.io/driver/mysql"
 	gpostgres "gorm.io/driver/postgres"
 	"gorm.io/gorm"

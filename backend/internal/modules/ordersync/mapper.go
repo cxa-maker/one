@@ -3,8 +3,8 @@ package ordersync
 import (
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/order"
-	platformp "github.com/trademind-ai/trademind/backend/internal/providers/platform"
+	"github.com/cxa-maker/one/backend/internal/modules/order"
+	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
 )
 
 // ToSyncedPayloads maps neutral platform orders into DB payloads (drops heavyweight RawData blobs).

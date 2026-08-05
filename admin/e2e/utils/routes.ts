@@ -10,7 +10,7 @@ import { imageProviderCapabilities } from '../mocks/image-providers';
 export async function seedAdminAuth(page: Page) {
   await page.addInitScript(([key, token]) => {
     window.localStorage.setItem(key, token);
-  }, ['trademind_admin_token', E2E_TOKEN]);
+  }, ['jiale_ozon_ai_admin_token', E2E_TOKEN]);
 }
 
 export async function routeStaticAssets(page: Page) {

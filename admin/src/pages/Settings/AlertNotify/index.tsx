@@ -440,7 +440,7 @@ export default function AlertNotifySettingsPage() {
                           <Input placeholder="可选" />
                         </Form.Item>
                         <Form.Item label="主题前缀" name="mail_subject_prefix" extra="留空则仅使用 [等级][分类] 标题">
-                          <Input placeholder="例如 [TradeMind]" />
+                          <Input placeholder="例如 [嘉乐OZON——AI]" />
                         </Form.Item>
                       </ChannelPanel>
                     </Col>
@@ -470,7 +470,7 @@ export default function AlertNotifySettingsPage() {
                         <Form.Item
                           label="签名密钥"
                           name="webhook_secret"
-                          extra="可选；设置后请求头携带 X-TradeMind-Signature（HMAC-SHA256）"
+                          extra="可选；设置后请求头携带 X-Jiale-Ozon-Ai-Signature（HMAC-SHA256）"
                         >
                           <Input.Password autoComplete="off" placeholder="留空则不签名" />
                         </Form.Item>

@@ -3,7 +3,7 @@ package idempotency
 import (
 	"time"
 
-	"github.com/trademind-ai/trademind/backend/internal/pkg/model"
+	"github.com/cxa-maker/one/backend/internal/pkg/model"
 )
 
 // Record statuses for unified idempotency.

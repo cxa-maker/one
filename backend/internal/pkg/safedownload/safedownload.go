@@ -50,7 +50,7 @@ func DefaultOptions() Options {
 		ConnectTimeout:  10 * time.Second,
 		ResponseTimeout: 30 * time.Second,
 		RequireImage:    true,
-		UserAgent:       "TradeMind-SafeDownload/1.0",
+		UserAgent:       "JialeOzonAI-SafeDownload/1.0",
 	}
 }
 
@@ -76,7 +76,7 @@ func Download(ctx context.Context, rawURL string, opts Options) (*Result, error)
 		opts.ResponseTimeout = 30 * time.Second
 	}
 	if strings.TrimSpace(opts.UserAgent) == "" {
-		opts.UserAgent = "TradeMind-SafeDownload/1.0"
+		opts.UserAgent = "JialeOzonAI-SafeDownload/1.0"
 	}
 
 	current := strings.TrimSpace(rawURL)

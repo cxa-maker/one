@@ -2,7 +2,7 @@ package inventory
 
 import (
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/model"
+	"github.com/cxa-maker/one/backend/internal/pkg/model"
 )
 
 // orderMirror / orderLineMirror mirror `orders` / `order_items` without importing `modules/order`,

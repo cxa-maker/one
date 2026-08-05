@@ -3,9 +3,9 @@ package database
 import (
 	"fmt"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/ordersync"
-	"github.com/trademind-ai/trademind/backend/internal/modules/product"
-	"github.com/trademind-ai/trademind/backend/internal/modules/shop"
+	"github.com/cxa-maker/one/backend/internal/modules/ordersync"
+	"github.com/cxa-maker/one/backend/internal/modules/product"
+	"github.com/cxa-maker/one/backend/internal/modules/shop"
 	"gorm.io/gorm"
 )
 

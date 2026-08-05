@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/collectrule"
+	"github.com/cxa-maker/one/backend/internal/modules/collectrule"
 )
 
 var ErrAIRuleInvalid = errors.New("AI_RULE_INVALID")

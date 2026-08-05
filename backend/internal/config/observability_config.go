@@ -85,7 +85,7 @@ func LoadObservabilityConfig(appEnv string, appName, appVersion string) Observab
 		MetricsPath:              firstNonEmpty(os.Getenv("METRICS_PATH"), "/internal/metrics"),
 		MetricsInternalOnly:      envBool(os.Getenv("METRICS_INTERNAL_ONLY"), appEnv == EnvProduction || appEnv == EnvStaging),
 		TracingEnabled:           tracingEnabled,
-		OTELServiceName:          firstNonEmpty(os.Getenv("OTEL_SERVICE_NAME"), firstNonEmpty(appName, "trademind-api")),
+		OTELServiceName:          firstNonEmpty(os.Getenv("OTEL_SERVICE_NAME"), firstNonEmpty(appName, "jiale-ozon-ai-api")),
 		OTELServiceVersion:       firstNonEmpty(os.Getenv("OTEL_SERVICE_VERSION"), appVersion),
 		OTELExporterOTLPEndpoint: strings.TrimSpace(os.Getenv("OTEL_EXPORTER_OTLP_ENDPOINT")),
 		OTELExporterOTLPProtocol: firstNonEmpty(os.Getenv("OTEL_EXPORTER_OTLP_PROTOCOL"), "http/json"),

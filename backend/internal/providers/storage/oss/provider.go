@@ -12,7 +12,7 @@ import (
 
 	alioss "github.com/aliyun/aliyun-oss-go-sdk/oss"
 
-	"github.com/trademind-ai/trademind/backend/internal/providers/storage/keypath"
+	"github.com/cxa-maker/one/backend/internal/providers/storage/keypath"
 )
 
 // Provider implements storage.Provider for Aliyun OSS.

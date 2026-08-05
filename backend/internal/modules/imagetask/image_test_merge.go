@@ -3,7 +3,7 @@ package imagetask
 import (
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/encrypt"
+	"github.com/cxa-maker/one/backend/internal/encrypt"
 )
 
 // MergeImagePlain overlays non-empty test overrides onto stored plaintext image settings.

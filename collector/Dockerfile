@@ -17,10 +17,10 @@ COPY collector ./collector
 
 RUN pnpm install --frozen-lockfile
 
-RUN pnpm --filter @trademind/collector build
+RUN pnpm --filter @jiale-ozon-ai/collector build
 
 ENV NODE_ENV=production
 
 EXPOSE 3001
 
-CMD ["pnpm", "--filter", "@trademind/collector", "start"]
+CMD ["pnpm", "--filter", "@jiale-ozon-ai/collector", "start"]

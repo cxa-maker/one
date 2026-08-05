@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationlog"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/imagerender"
+	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
+	"github.com/cxa-maker/one/backend/internal/pkg/imagerender"
 )
 
 func (s *Service) logTranslateAudit(ctx context.Context, task *ImageTask, action, status, msg string) {

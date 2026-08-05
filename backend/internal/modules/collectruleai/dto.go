@@ -3,7 +3,7 @@ package collectruleai
 import (
 	"encoding/json"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/collectrule"
+	"github.com/cxa-maker/one/backend/internal/modules/collectrule"
 )
 
 type GenerateBody struct {

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/product"
+	"github.com/cxa-maker/one/backend/internal/modules/product"
 )
 
 // normalizePinduoduoImport adjusts price/currency and may synthesize a default SKU for pinduoduo beta collects.

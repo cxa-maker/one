@@ -6,8 +6,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/product"
-	platformp "github.com/trademind-ai/trademind/backend/internal/providers/platform"
+	"github.com/cxa-maker/one/backend/internal/modules/product"
+	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
 )
 
 // BuildPlatformDraftFromProduct maps a hydrated product.Product into a provider-neutral listing draft (no encryption).

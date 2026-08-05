@@ -737,7 +737,7 @@ export function performanceEnvDefaults(extra = {}) {
     P7V2_PERF_TENANT_ADMIN_PASSWORD: readEnvKeyFromFile('P7V2_PERF_TENANT_ADMIN_PASSWORD') || 'P7v2-TenantAdmin-Local-2026!',
     P7V2_PERF_OPERATOR_PASSWORD: readEnvKeyFromFile('P7V2_PERF_OPERATOR_PASSWORD') || 'P7v2-Operator-Local-2026!',
     P7V2_PERF_READONLY_PASSWORD: readEnvKeyFromFile('P7V2_PERF_READONLY_PASSWORD') || 'P7v2-Readonly-Local-2026!',
-    P7V2_WEBHOOK_TEST_SECRET: readEnvKeyFromFile('P7V2_WEBHOOK_TEST_SECRET') || 'trademind-internal-test-webhook-secret',
+    P7V2_WEBHOOK_TEST_SECRET: readEnvKeyFromFile('P7V2_WEBHOOK_TEST_SECRET') || 'jiale-ozon-ai-internal-test-webhook-secret',
     ...extra,
   };
 }

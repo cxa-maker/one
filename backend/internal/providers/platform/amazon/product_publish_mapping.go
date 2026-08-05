@@ -9,8 +9,8 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/trademind-ai/trademind/backend/internal/pkg/httppublic"
-	platformp "github.com/trademind-ai/trademind/backend/internal/providers/platform"
+	"github.com/cxa-maker/one/backend/internal/pkg/httppublic"
+	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
 )
 
 type amazonPublishMerged struct {

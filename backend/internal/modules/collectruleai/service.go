@@ -13,14 +13,14 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/aiprompt"
-	"github.com/trademind-ai/trademind/backend/internal/modules/collect"
-	"github.com/trademind-ai/trademind/backend/internal/modules/collectrule"
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationlog"
-	"github.com/trademind-ai/trademind/backend/internal/modules/settings"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/aimodelparse"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/collectdomain"
-	aigate "github.com/trademind-ai/trademind/backend/internal/providers/ai"
+	"github.com/cxa-maker/one/backend/internal/modules/aiprompt"
+	"github.com/cxa-maker/one/backend/internal/modules/collect"
+	"github.com/cxa-maker/one/backend/internal/modules/collectrule"
+	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
+	"github.com/cxa-maker/one/backend/internal/modules/settings"
+	"github.com/cxa-maker/one/backend/internal/pkg/aimodelparse"
+	"github.com/cxa-maker/one/backend/internal/pkg/collectdomain"
+	aigate "github.com/cxa-maker/one/backend/internal/providers/ai"
 )
 
 const (

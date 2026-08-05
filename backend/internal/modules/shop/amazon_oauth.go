@@ -11,9 +11,9 @@ import (
 	"github.com/google/uuid"
 	"gorm.io/datatypes"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationlog"
-	platformp "github.com/trademind-ai/trademind/backend/internal/providers/platform"
-	platformamazon "github.com/trademind-ai/trademind/backend/internal/providers/platform/amazon"
+	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
+	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
+	platformamazon "github.com/cxa-maker/one/backend/internal/providers/platform/amazon"
 )
 
 const amazonOAuthRedisPrefix = "oauth:amazon:state:"

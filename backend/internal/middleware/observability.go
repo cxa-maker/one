@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/logging"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/metrics"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/observability"
+	"github.com/cxa-maker/one/backend/internal/pkg/logging"
+	"github.com/cxa-maker/one/backend/internal/pkg/metrics"
+	"github.com/cxa-maker/one/backend/internal/pkg/observability"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 )

@@ -17,7 +17,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/trademind-ai/trademind/backend/internal/pkg/httppublic"
+	"github.com/cxa-maker/one/backend/internal/pkg/httppublic"
 )
 
 const (
@@ -79,7 +79,7 @@ func VerifyPublicURL(ctx context.Context, rawURL string) ProbeResult {
 	if err != nil {
 		return fail(CodePublicAccessFailed, "无法发起图片访问请求", map[string]any{"error": err.Error()})
 	}
-	req.Header.Set("User-Agent", "TradeMind-Storage-Public-Probe/1.0")
+	req.Header.Set("User-Agent", "JialeOzonAI-Storage-Public-Probe/1.0")
 	req.Header.Set("Accept", "image/*,*/*")
 
 	resp, err := cli.Do(req)

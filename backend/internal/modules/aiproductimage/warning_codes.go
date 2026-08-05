@@ -3,8 +3,8 @@ package aiproductimage
 import (
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/modules/imagetask"
-	imgprov "github.com/trademind-ai/trademind/backend/internal/providers/image"
+	"github.com/cxa-maker/one/backend/internal/modules/imagetask"
+	imgprov "github.com/cxa-maker/one/backend/internal/providers/image"
 )
 
 // Structured warning / error codes for AI image processing (H1.3).

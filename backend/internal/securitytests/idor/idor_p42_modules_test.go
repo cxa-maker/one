@@ -6,14 +6,14 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
-	"github.com/trademind-ai/trademind/backend/internal/modules/exportmod"
-	"github.com/trademind-ai/trademind/backend/internal/modules/files"
-	"github.com/trademind-ai/trademind/backend/internal/modules/operationlog"
-	"github.com/trademind-ai/trademind/backend/internal/modules/securitymod"
-	"github.com/trademind-ai/trademind/backend/internal/modules/webhook"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/repository"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/security"
-	"github.com/trademind-ai/trademind/backend/internal/pkg/tasktenant"
+	"github.com/cxa-maker/one/backend/internal/modules/exportmod"
+	"github.com/cxa-maker/one/backend/internal/modules/files"
+	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
+	"github.com/cxa-maker/one/backend/internal/modules/securitymod"
+	"github.com/cxa-maker/one/backend/internal/modules/webhook"
+	"github.com/cxa-maker/one/backend/internal/pkg/repository"
+	"github.com/cxa-maker/one/backend/internal/pkg/security"
+	"github.com/cxa-maker/one/backend/internal/pkg/tasktenant"
 )
 
 // --- Export IDOR (3 cases) ---

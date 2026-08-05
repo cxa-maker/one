@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/trademind-ai/trademind/backend/internal/pkg/ctxkey"
+	"github.com/cxa-maker/one/backend/internal/pkg/ctxkey"
 	"go.opentelemetry.io/otel/trace"
 )
 

@@ -7,7 +7,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	platformdouyin "github.com/trademind-ai/trademind/backend/internal/providers/platform/douyinshop"
+	platformdouyin "github.com/cxa-maker/one/backend/internal/providers/platform/douyinshop"
 )
 
 func douyinMappingContentHash(mapping any) string {

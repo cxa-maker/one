@@ -1,6 +1,6 @@
 package configstatus
 
-import "github.com/trademind-ai/trademind/backend/internal/config"
+import "github.com/cxa-maker/one/backend/internal/config"
 
 // appendP42SecurityItems adds Phase P4.2 tenant + worker closure rows.
 func appendP42SecurityItems(items []Item, cfg *config.Config) []Item {
