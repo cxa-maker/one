@@ -6,10 +6,10 @@ import (
 	"log/slog"
 	"time"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
 	"github.com/cxa-maker/one/backend/internal/pkg/tasklease"
 	platformdouyin "github.com/cxa-maker/one/backend/internal/providers/platform/douyinshop"
+	"github.com/google/uuid"
 	"gorm.io/datatypes"
 )
 

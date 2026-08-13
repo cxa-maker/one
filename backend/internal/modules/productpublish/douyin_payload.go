@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/product"
 	"github.com/cxa-maker/one/backend/internal/modules/shop"
 	platformdouyin "github.com/cxa-maker/one/backend/internal/providers/platform/douyinshop"
+	"github.com/google/uuid"
 	"gorm.io/gorm"
 )
 

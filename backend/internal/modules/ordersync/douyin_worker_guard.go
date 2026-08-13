@@ -5,9 +5,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/uuid"
 	douyinmetrics "github.com/cxa-maker/one/backend/internal/metrics/douyin"
 	platformdouyin "github.com/cxa-maker/one/backend/internal/providers/platform/douyinshop"
+	"github.com/google/uuid"
 	"gorm.io/datatypes"
 )
 

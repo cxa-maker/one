@@ -1,9 +1,9 @@
 package operationdashboard
 
 import (
+	"github.com/cxa-maker/one/backend/internal/pkg/adminperm"
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
-	"github.com/cxa-maker/one/backend/internal/pkg/adminperm"
 	"gorm.io/gorm"
 )
 

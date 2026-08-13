@@ -6,8 +6,8 @@ import (
 	"log/slog"
 	"time"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/pkg/tasklease"
+	"github.com/google/uuid"
 )
 
 func (s *Service) orderSyncLeaseTTL() time.Duration {

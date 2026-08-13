@@ -10,12 +10,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/gin-gonic/gin"
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/config"
 	"github.com/cxa-maker/one/backend/internal/database"
 	"github.com/cxa-maker/one/backend/internal/pkg/ctxkey"
 	"github.com/cxa-maker/one/backend/internal/pkg/security"
+	"github.com/gin-gonic/gin"
+	"github.com/google/uuid"
 	"gorm.io/gorm"
 )
 

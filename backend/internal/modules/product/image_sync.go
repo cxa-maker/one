@@ -9,10 +9,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gin-gonic/gin"
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/files"
 	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
+	"github.com/gin-gonic/gin"
+	"github.com/google/uuid"
 )
 
 // SyncImagesBody selects which image groups to mirror into platform storage.

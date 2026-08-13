@@ -1,8 +1,8 @@
 package inventory
 
 import (
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/pkg/model"
+	"github.com/google/uuid"
 )
 
 // orderMirror / orderLineMirror mirror `orders` / `order_items` without importing `modules/order`,

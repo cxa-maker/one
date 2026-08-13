@@ -11,12 +11,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gin-gonic/gin"
-	"github.com/glebarez/sqlite"
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/product"
 	"github.com/cxa-maker/one/backend/internal/modules/shop"
 	"github.com/cxa-maker/one/backend/internal/pkg/model"
+	"github.com/gin-gonic/gin"
+	"github.com/glebarez/sqlite"
+	"github.com/google/uuid"
 	"gorm.io/datatypes"
 	"gorm.io/gorm"
 )

@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
+	platformdouyin "github.com/cxa-maker/one/backend/internal/providers/platform/douyinshop"
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
-	platformdouyin "github.com/cxa-maker/one/backend/internal/providers/platform/douyinshop"
 	"gorm.io/datatypes"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"

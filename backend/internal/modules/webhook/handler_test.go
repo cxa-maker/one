@@ -14,13 +14,13 @@ import (
 	"testing"
 	"time"
 
+	"github.com/cxa-maker/one/backend/internal/config"
+	"github.com/cxa-maker/one/backend/internal/modules/idempotency"
+	"github.com/cxa-maker/one/backend/internal/modules/webhook"
 	"github.com/gin-gonic/gin"
 	"github.com/glebarez/sqlite"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"
-	"github.com/cxa-maker/one/backend/internal/config"
-	"github.com/cxa-maker/one/backend/internal/modules/idempotency"
-	"github.com/cxa-maker/one/backend/internal/modules/webhook"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 )

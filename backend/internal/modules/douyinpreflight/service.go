@@ -8,8 +8,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gin-gonic/gin"
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/encrypt"
 	"github.com/cxa-maker/one/backend/internal/modules/product"
 	"github.com/cxa-maker/one/backend/internal/modules/productpublish"
@@ -19,6 +17,8 @@ import (
 	"github.com/cxa-maker/one/backend/internal/pkg/httppublic"
 	storagepub "github.com/cxa-maker/one/backend/internal/pkg/storagepublic"
 	platformdouyin "github.com/cxa-maker/one/backend/internal/providers/platform/douyinshop"
+	"github.com/gin-gonic/gin"
+	"github.com/google/uuid"
 	"gorm.io/gorm"
 )
 

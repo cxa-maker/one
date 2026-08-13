@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/productcheck"
+	"github.com/google/uuid"
 	"gorm.io/datatypes"
 )
 

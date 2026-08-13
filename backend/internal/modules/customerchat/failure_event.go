@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/pkg/id"
 	"github.com/cxa-maker/one/backend/internal/pkg/model"
 	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
+	"github.com/google/uuid"
 	"gorm.io/gorm"
 )
 

@@ -8,12 +8,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/config"
 	"github.com/cxa-maker/one/backend/internal/modules/admin"
 	"github.com/cxa-maker/one/backend/internal/pkg/authutil"
 	"github.com/cxa-maker/one/backend/internal/pkg/metrics"
 	"github.com/cxa-maker/one/backend/internal/pkg/p7diag"
+	"github.com/google/uuid"
 	"golang.org/x/crypto/bcrypt"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"

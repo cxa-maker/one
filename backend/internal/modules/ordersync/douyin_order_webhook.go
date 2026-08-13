@@ -6,11 +6,11 @@ import (
 	"log/slog"
 	"strings"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/order"
 	"github.com/cxa-maker/one/backend/internal/modules/shop"
 	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
 	platformdouyin "github.com/cxa-maker/one/backend/internal/providers/platform/douyinshop"
+	"github.com/google/uuid"
 	"gorm.io/gorm"
 )
 

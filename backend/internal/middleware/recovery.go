@@ -4,8 +4,8 @@ import (
 	"log/slog"
 	"runtime/debug"
 
-	"github.com/gin-gonic/gin"
 	"github.com/cxa-maker/one/backend/internal/pkg/response"
+	"github.com/gin-gonic/gin"
 )
 
 // Recovery catches panics and returns the unified JSON error body.

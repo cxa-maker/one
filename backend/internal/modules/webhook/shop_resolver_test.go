@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stretchr/testify/require"
 	"github.com/cxa-maker/one/backend/internal/modules/idempotency"
 	"github.com/cxa-maker/one/backend/internal/modules/shop"
 	"github.com/cxa-maker/one/backend/internal/modules/webhook"
+	"github.com/stretchr/testify/require"
 	"gorm.io/gorm"
 )
 

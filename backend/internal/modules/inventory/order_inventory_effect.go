@@ -1,8 +1,8 @@
 package inventory
 
 import (
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/pkg/model"
+	"github.com/google/uuid"
 )
 
 // Order inventory linkage uses a sentinel UUID because composite unique constraints do not treat nil as equal.

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/product"
+	"github.com/google/uuid"
 )
 
 func (s *Service) prepareReplaceBackgroundHints(ctx context.Context, task *ImageTask, hints map[string]any) map[string]any {

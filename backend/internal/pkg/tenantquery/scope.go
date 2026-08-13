@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/pkg/repository"
+	"github.com/google/uuid"
 	"gorm.io/gorm"
 )
 

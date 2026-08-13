@@ -4,7 +4,6 @@ import (
 	"context"
 	"testing"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/aiproductimage"
 	"github.com/cxa-maker/one/backend/internal/modules/aiproducttext"
 	"github.com/cxa-maker/one/backend/internal/modules/customerchat"
@@ -14,6 +13,7 @@ import (
 	"github.com/cxa-maker/one/backend/internal/modules/productpublish"
 	"github.com/cxa-maker/one/backend/internal/modules/webhook"
 	"github.com/cxa-maker/one/backend/internal/pkg/repository"
+	"github.com/google/uuid"
 	"gorm.io/gorm"
 )
 

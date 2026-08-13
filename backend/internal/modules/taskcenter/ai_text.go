@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/aiproducttext"
 	"github.com/cxa-maker/one/backend/internal/modules/taskcenter/failureclassifier"
+	"github.com/google/uuid"
 	"gorm.io/datatypes"
 	"gorm.io/gorm"
 )

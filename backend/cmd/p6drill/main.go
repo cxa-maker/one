@@ -11,7 +11,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/config"
 	"github.com/cxa-maker/one/backend/internal/database"
 	"github.com/cxa-maker/one/backend/internal/encrypt"
@@ -19,6 +18,7 @@ import (
 	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
 	"github.com/cxa-maker/one/backend/internal/modules/release"
 	"github.com/cxa-maker/one/backend/internal/modules/restore"
+	"github.com/google/uuid"
 	"gorm.io/gorm"
 )
 

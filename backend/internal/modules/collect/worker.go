@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/worker"
 	"github.com/cxa-maker/one/backend/internal/pkg/tasktenant"
+	"github.com/google/uuid"
 )
 
 func normalizeCollectConcurrency(n int) int {

@@ -4,8 +4,8 @@ import (
 	"context"
 	"strings"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/taskcenter/failureclassifier"
+	"github.com/google/uuid"
 )
 
 func classificationInput(d UnifiedTaskDTO) failureclassifier.Input {

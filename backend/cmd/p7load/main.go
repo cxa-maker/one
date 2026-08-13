@@ -13,7 +13,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/config"
 	"github.com/cxa-maker/one/backend/internal/database"
 	"github.com/cxa-maker/one/backend/internal/modules/admin"
@@ -25,6 +24,7 @@ import (
 	"github.com/cxa-maker/one/backend/internal/modules/product"
 	"github.com/cxa-maker/one/backend/internal/modules/shop"
 	"github.com/cxa-maker/one/backend/internal/modules/webhook"
+	"github.com/google/uuid"
 	"gorm.io/datatypes"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"

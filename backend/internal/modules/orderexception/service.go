@@ -7,12 +7,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/inventory"
 	"github.com/cxa-maker/one/backend/internal/modules/order"
 	"github.com/cxa-maker/one/backend/internal/modules/ordersync"
 	"github.com/cxa-maker/one/backend/internal/modules/product"
 	"github.com/cxa-maker/one/backend/internal/modules/shop"
+	"github.com/google/uuid"
 	"gorm.io/gorm"
 )
 

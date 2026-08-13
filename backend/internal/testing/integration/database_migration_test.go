@@ -3,9 +3,9 @@ package integration
 import (
 	"testing"
 
-	"github.com/stretchr/testify/require"
 	"github.com/cxa-maker/one/backend/internal/database"
 	"github.com/cxa-maker/one/backend/internal/testing/safeenv"
+	"github.com/stretchr/testify/require"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )

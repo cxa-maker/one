@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/configstatus"
 	"github.com/cxa-maker/one/backend/internal/modules/taskcenter/failureclassifier"
+	"github.com/google/uuid"
 )
 
 // OverviewSection is one domain bucket in GET /dashboard/overview.

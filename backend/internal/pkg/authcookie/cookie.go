@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gin-gonic/gin"
 	"github.com/cxa-maker/one/backend/internal/config"
+	"github.com/gin-gonic/gin"
 )
 
 // RefreshCookieName is the HttpOnly cookie storing refresh tokens.

@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/files"
 	imgprov "github.com/cxa-maker/one/backend/internal/providers/image"
+	"github.com/google/uuid"
 )
 
 // persistProviderResult uploads bytes to configured storage; never returns provider temp URLs as final.

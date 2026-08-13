@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/pkg/model"
 	platformdouyin "github.com/cxa-maker/one/backend/internal/providers/platform/douyinshop"
+	"github.com/google/uuid"
 )
 
 // DouyinOAuthState persists OAuth state hash for one-time-use verification.

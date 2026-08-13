@@ -7,8 +7,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gin-gonic/gin"
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/config"
 	"github.com/cxa-maker/one/backend/internal/encrypt"
 	"github.com/cxa-maker/one/backend/internal/health"
@@ -71,6 +69,8 @@ import (
 	platformshopee "github.com/cxa-maker/one/backend/internal/providers/platform/shopee"
 	platformtiktok "github.com/cxa-maker/one/backend/internal/providers/platform/tiktok"
 	"github.com/cxa-maker/one/backend/internal/rdb"
+	"github.com/gin-gonic/gin"
+	"github.com/google/uuid"
 	"gorm.io/gorm"
 )
 

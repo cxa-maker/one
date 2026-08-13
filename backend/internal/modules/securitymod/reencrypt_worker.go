@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/worker"
 	"github.com/cxa-maker/one/backend/internal/pkg/security"
+	"github.com/google/uuid"
 )
 
 // StartReencryptWorker polls running rotation jobs and processes re-encrypt batches.

@@ -5,8 +5,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gin-gonic/gin"
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/config"
 	"github.com/cxa-maker/one/backend/internal/modules/admin"
 	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
@@ -17,6 +15,8 @@ import (
 	"github.com/cxa-maker/one/backend/internal/pkg/p7diag"
 	"github.com/cxa-maker/one/backend/internal/pkg/response"
 	"github.com/cxa-maker/one/backend/internal/rdb"
+	"github.com/gin-gonic/gin"
+	"github.com/google/uuid"
 	"gorm.io/gorm"
 )
 

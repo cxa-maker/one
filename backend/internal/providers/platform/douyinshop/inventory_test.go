@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/google/uuid"
 	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
+	"github.com/google/uuid"
 )
 
 func testInventoryRuntimeConfig() RuntimeConfig {

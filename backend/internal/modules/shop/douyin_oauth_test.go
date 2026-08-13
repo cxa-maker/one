@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
+	platformdouyin "github.com/cxa-maker/one/backend/internal/providers/platform/douyinshop"
 	"github.com/glebarez/sqlite"
 	"github.com/google/uuid"
-	platformdouyin "github.com/cxa-maker/one/backend/internal/providers/platform/douyinshop"
 	"gorm.io/gorm"
 )
 

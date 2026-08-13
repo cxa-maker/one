@@ -6,7 +6,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gin-gonic/gin"
 	"github.com/cxa-maker/one/backend/internal/config"
 	"github.com/cxa-maker/one/backend/internal/modules/customersync"
 	"github.com/cxa-maker/one/backend/internal/modules/inventory"
@@ -20,6 +19,7 @@ import (
 	aigate "github.com/cxa-maker/one/backend/internal/providers/ai"
 	"github.com/cxa-maker/one/backend/internal/providers/image"
 	"github.com/cxa-maker/one/backend/internal/rdb"
+	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"
 )
 

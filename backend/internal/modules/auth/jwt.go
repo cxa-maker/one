@@ -3,9 +3,9 @@ package auth
 import (
 	"time"
 
+	"github.com/cxa-maker/one/backend/internal/config"
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/google/uuid"
-	"github.com/cxa-maker/one/backend/internal/config"
 )
 
 // Claims is kept for backward compatibility; prefer AccessClaims.

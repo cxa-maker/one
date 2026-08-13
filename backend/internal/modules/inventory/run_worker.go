@@ -7,12 +7,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/uuid"
 	douyinmetrics "github.com/cxa-maker/one/backend/internal/metrics/douyin"
 	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
 	"github.com/cxa-maker/one/backend/internal/modules/product"
 	"github.com/cxa-maker/one/backend/internal/modules/productpublish"
 	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
+	"github.com/google/uuid"
 	"gorm.io/datatypes"
 )
 

@@ -5,9 +5,6 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/gin-gonic/gin"
-	"github.com/glebarez/sqlite"
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/admin"
 	"github.com/cxa-maker/one/backend/internal/modules/customerchat"
 	"github.com/cxa-maker/one/backend/internal/modules/exportmod"
@@ -20,6 +17,9 @@ import (
 	"github.com/cxa-maker/one/backend/internal/pkg/adminperm"
 	"github.com/cxa-maker/one/backend/internal/pkg/ctxkey"
 	"github.com/cxa-maker/one/backend/internal/pkg/security"
+	"github.com/gin-gonic/gin"
+	"github.com/glebarez/sqlite"
+	"github.com/google/uuid"
 	"gorm.io/gorm"
 )
 

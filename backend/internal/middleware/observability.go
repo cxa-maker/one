@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gin-gonic/gin"
 	"github.com/cxa-maker/one/backend/internal/pkg/logging"
 	"github.com/cxa-maker/one/backend/internal/pkg/metrics"
 	"github.com/cxa-maker/one/backend/internal/pkg/observability"
+	"github.com/gin-gonic/gin"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 )

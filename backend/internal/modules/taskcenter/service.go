@@ -7,7 +7,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/config"
 	"github.com/cxa-maker/one/backend/internal/modules/aiproducttext"
 	"github.com/cxa-maker/one/backend/internal/modules/collect"
@@ -21,6 +20,7 @@ import (
 	"github.com/cxa-maker/one/backend/internal/modules/settings"
 	"github.com/cxa-maker/one/backend/internal/modules/shop"
 	"github.com/cxa-maker/one/backend/internal/pkg/pagination"
+	"github.com/google/uuid"
 	"gorm.io/gorm"
 )
 

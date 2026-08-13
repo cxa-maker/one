@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/cxa-maker/one/backend/internal/pkg/tasklease"
 	"github.com/glebarez/sqlite"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"
-	"github.com/cxa-maker/one/backend/internal/pkg/tasklease"
 	"gorm.io/gorm"
 )
 

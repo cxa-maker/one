@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gin-gonic/gin"
 	"github.com/cxa-maker/one/backend/internal/modules/shop"
+	"github.com/gin-gonic/gin"
 )
 
 // DashboardSummary is customer center home KPIs.

@@ -3,9 +3,9 @@ package idor_test
 import (
 	"testing"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/collect"
 	"github.com/cxa-maker/one/backend/internal/modules/taskcenter"
+	"github.com/google/uuid"
 )
 
 // --- Task Center IDOR (6 cases) ---

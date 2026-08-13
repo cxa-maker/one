@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
+	"github.com/google/uuid"
 )
 
 func imageRetryDelaySeconds(retryCount, baseSec, capSec int) int {

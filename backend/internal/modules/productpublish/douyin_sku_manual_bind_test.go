@@ -3,8 +3,8 @@ package productpublish
 import (
 	"testing"
 
-	"github.com/google/uuid"
 	platformdouyin "github.com/cxa-maker/one/backend/internal/providers/platform/douyinshop"
+	"github.com/google/uuid"
 )
 
 func TestDouyinInventorySyncReadyAllBound(t *testing.T) {

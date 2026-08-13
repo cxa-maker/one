@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/glebarez/sqlite"
 	"github.com/cxa-maker/one/backend/internal/modules/aitask"
+	"github.com/glebarez/sqlite"
 	"gorm.io/datatypes"
 	"gorm.io/gorm"
 )

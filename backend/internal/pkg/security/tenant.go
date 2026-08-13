@@ -3,9 +3,9 @@ package security
 import (
 	"context"
 
+	"github.com/cxa-maker/one/backend/internal/pkg/ctxkey"
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
-	"github.com/cxa-maker/one/backend/internal/pkg/ctxkey"
 )
 
 // TenantContext carries trusted auth-derived scope for a request.

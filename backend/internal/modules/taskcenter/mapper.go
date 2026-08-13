@@ -7,13 +7,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/collect"
 	"github.com/cxa-maker/one/backend/internal/modules/customersync"
 	"github.com/cxa-maker/one/backend/internal/modules/imagetask"
 	"github.com/cxa-maker/one/backend/internal/modules/inventory"
 	"github.com/cxa-maker/one/backend/internal/modules/ordersync"
 	"github.com/cxa-maker/one/backend/internal/modules/productpublish"
+	"github.com/google/uuid"
 	"gorm.io/datatypes"
 )
 

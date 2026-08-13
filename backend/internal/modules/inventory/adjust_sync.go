@@ -6,13 +6,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gin-gonic/gin"
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
 	"github.com/cxa-maker/one/backend/internal/modules/product"
 	"github.com/cxa-maker/one/backend/internal/modules/productpublish"
 	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
 	platformdouyin "github.com/cxa-maker/one/backend/internal/providers/platform/douyinshop"
+	"github.com/gin-gonic/gin"
+	"github.com/google/uuid"
 )
 
 // AdjustSKUStock updates local SKU snapshot and optionally enqueues platform pushes for eligible mappings.

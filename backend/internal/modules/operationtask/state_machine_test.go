@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/stretchr/testify/require"
 	"github.com/cxa-maker/one/backend/internal/modules/operationtask"
+	"github.com/stretchr/testify/require"
 )
 
 func TestTaskStateMachineCanonicalTransitions(t *testing.T) {

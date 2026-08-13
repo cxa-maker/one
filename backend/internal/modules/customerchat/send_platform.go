@@ -9,13 +9,13 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/gin-gonic/gin"
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/idempotency"
 	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
 	"github.com/cxa-maker/one/backend/internal/modules/shop"
 	"github.com/cxa-maker/one/backend/internal/pkg/taskretry"
 	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
+	"github.com/gin-gonic/gin"
+	"github.com/google/uuid"
 	"gorm.io/datatypes"
 	"gorm.io/gorm"
 )

@@ -8,8 +8,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gin-gonic/gin"
-	"github.com/google/uuid"
 	douyinmetrics "github.com/cxa-maker/one/backend/internal/metrics/douyin"
 	"github.com/cxa-maker/one/backend/internal/modules/idempotency"
 	"github.com/cxa-maker/one/backend/internal/modules/inventory"
@@ -22,6 +20,8 @@ import (
 	"github.com/cxa-maker/one/backend/internal/pkg/repository"
 	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
 	"github.com/cxa-maker/one/backend/internal/rdb"
+	"github.com/gin-gonic/gin"
+	"github.com/google/uuid"
 	"gorm.io/datatypes"
 	"gorm.io/gorm"
 )

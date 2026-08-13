@@ -6,9 +6,9 @@ import (
 	"math"
 	"strings"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/shop"
 	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
+	"github.com/google/uuid"
 )
 
 const ErrorPublishConfigInvalid = "PUBLISH_CONFIG_INVALID"

@@ -8,13 +8,13 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/product"
 	"github.com/cxa-maker/one/backend/internal/modules/settings"
 	"github.com/cxa-maker/one/backend/internal/modules/shop"
 	"github.com/cxa-maker/one/backend/internal/pkg/httppublic"
 	"github.com/cxa-maker/one/backend/internal/pkg/opslabels"
 	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
+	"github.com/google/uuid"
 	"gorm.io/gorm"
 )
 

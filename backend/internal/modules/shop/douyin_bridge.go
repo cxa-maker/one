@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/uuid"
 	platformdouyin "github.com/cxa-maker/one/backend/internal/providers/platform/douyinshop"
+	"github.com/google/uuid"
 )
 
 // DouyinShopsBridge satisfies platform/douyinshop persistence hooks.

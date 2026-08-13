@@ -12,8 +12,6 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gin-gonic/gin"
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/idempotency"
 	"github.com/cxa-maker/one/backend/internal/modules/imagetask"
 	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
@@ -21,6 +19,8 @@ import (
 	"github.com/cxa-maker/one/backend/internal/modules/settings"
 	"github.com/cxa-maker/one/backend/internal/pkg/metrics"
 	"github.com/cxa-maker/one/backend/internal/pkg/safedownload"
+	"github.com/gin-gonic/gin"
+	"github.com/google/uuid"
 	"gorm.io/datatypes"
 	"gorm.io/gorm"
 )

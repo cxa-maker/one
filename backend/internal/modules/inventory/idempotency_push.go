@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/idempotency"
+	"github.com/google/uuid"
 )
 
 const errInventoryPushInProgress = "INVENTORY_PUSH_IN_PROGRESS"

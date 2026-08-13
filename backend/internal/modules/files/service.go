@@ -15,8 +15,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gin-gonic/gin"
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/settings"
 	"github.com/cxa-maker/one/backend/internal/pkg/adminperm"
 	"github.com/cxa-maker/one/backend/internal/pkg/ctxkey"
@@ -24,6 +22,8 @@ import (
 	"github.com/cxa-maker/one/backend/internal/pkg/repository"
 	"github.com/cxa-maker/one/backend/internal/providers/storage"
 	"github.com/cxa-maker/one/backend/internal/rdb"
+	"github.com/gin-gonic/gin"
+	"github.com/google/uuid"
 	"golang.org/x/image/webp"
 	"gorm.io/gorm"
 )

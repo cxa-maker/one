@@ -3,8 +3,8 @@ package response
 import (
 	"net/http"
 
-	"github.com/gin-gonic/gin"
 	"github.com/cxa-maker/one/backend/internal/pkg/ctxkey"
+	"github.com/gin-gonic/gin"
 )
 
 // OK writes a success envelope with HTTP 200.

@@ -138,7 +138,7 @@ func (s *Service) BuildIntegrationOverview(ctx context.Context) (*IntegrationsOv
 	}
 
 	out := &IntegrationsOverview{
-			DisclaimerShort: "嘉乐OZON——AI不包含任何第三方密钥；请在各开放平台与云厂商自助申请，仅在后台填写并由后端加密存储与调用。",
+		DisclaimerShort: "嘉乐OZON——AI不包含任何第三方密钥；请在各开放平台与云厂商自助申请，仅在后台填写并由后端加密存储与调用。",
 	}
 
 	ai, err := s.PlainByGroup(ctx, 0, "ai")

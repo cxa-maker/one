@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/uuid"
 	platformshopee "github.com/cxa-maker/one/backend/internal/providers/platform/shopee"
+	"github.com/google/uuid"
 )
 
 // ShopeeShopsBridge satisfies platform/shopee persistence hooks.

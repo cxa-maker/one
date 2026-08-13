@@ -9,7 +9,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/aiproductimage"
 	"github.com/cxa-maker/one/backend/internal/modules/aiproducttext"
 	"github.com/cxa-maker/one/backend/internal/modules/product"
@@ -17,6 +16,7 @@ import (
 	"github.com/cxa-maker/one/backend/internal/modules/productpublish"
 	"github.com/cxa-maker/one/backend/internal/modules/taskcenter"
 	"github.com/cxa-maker/one/backend/internal/pkg/opslabels"
+	"github.com/google/uuid"
 	"gorm.io/datatypes"
 	"gorm.io/gorm"
 )

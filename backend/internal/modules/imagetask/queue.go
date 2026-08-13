@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/rdb"
+	"github.com/google/uuid"
 )
 
 // ImageQueueMessage is JSON-serialized for Redis list LPUSH (producer → worker).

@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/pkg/opslabels"
+	"github.com/google/uuid"
 	"gorm.io/gorm"
 )
 

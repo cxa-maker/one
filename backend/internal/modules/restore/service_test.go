@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/glebarez/sqlite"
 	"github.com/cxa-maker/one/backend/internal/config"
 	"github.com/cxa-maker/one/backend/internal/modules/backup"
+	"github.com/glebarez/sqlite"
 	"gorm.io/gorm"
 )
 

@@ -12,8 +12,6 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/gin-gonic/gin"
-	"github.com/joho/godotenv"
 	"github.com/cxa-maker/one/backend/internal/api"
 	"github.com/cxa-maker/one/backend/internal/config"
 	"github.com/cxa-maker/one/backend/internal/database"
@@ -46,6 +44,8 @@ import (
 	securitypkg "github.com/cxa-maker/one/backend/internal/pkg/security"
 	"github.com/cxa-maker/one/backend/internal/pkg/tracing"
 	"github.com/cxa-maker/one/backend/internal/rdb"
+	"github.com/gin-gonic/gin"
+	"github.com/joho/godotenv"
 )
 
 func loadDotEnv() {

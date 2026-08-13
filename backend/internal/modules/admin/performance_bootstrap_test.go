@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/cxa-maker/one/backend/internal/config"
 	"github.com/glebarez/sqlite"
 	"github.com/google/uuid"
-	"github.com/cxa-maker/one/backend/internal/config"
 	"gorm.io/gorm"
 )
 

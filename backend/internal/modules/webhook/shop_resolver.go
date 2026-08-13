@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/config"
 	"github.com/cxa-maker/one/backend/internal/modules/shop"
+	"github.com/google/uuid"
 	"gorm.io/gorm"
 )
 

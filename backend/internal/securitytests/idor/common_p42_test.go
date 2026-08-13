@@ -7,7 +7,6 @@ import (
 	"testing"
 	"time"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/aiproductimage"
 	"github.com/cxa-maker/one/backend/internal/modules/aiproducttext"
 	"github.com/cxa-maker/one/backend/internal/modules/collect"
@@ -24,6 +23,7 @@ import (
 	"github.com/cxa-maker/one/backend/internal/modules/webhook"
 	"github.com/cxa-maker/one/backend/internal/pkg/repository"
 	"github.com/cxa-maker/one/backend/internal/pkg/security"
+	"github.com/google/uuid"
 	"gorm.io/gorm"
 )
 

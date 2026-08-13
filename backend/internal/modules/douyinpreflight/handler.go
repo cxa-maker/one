@@ -3,9 +3,9 @@ package douyinpreflight
 import (
 	"fmt"
 
-	"github.com/gin-gonic/gin"
 	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
 	"github.com/cxa-maker/one/backend/internal/pkg/response"
+	"github.com/gin-gonic/gin"
 )
 
 // Handler serves Douyin production preflight APIs.

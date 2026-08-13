@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/aiproducttext"
 	"github.com/cxa-maker/one/backend/internal/pkg/model"
+	"github.com/google/uuid"
 	"gorm.io/datatypes"
 )
 

@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gin-gonic/gin"
 	"github.com/cxa-maker/one/backend/internal/config"
+	"github.com/gin-gonic/gin"
 )
 
 // CORSConfig holds production CORS settings.

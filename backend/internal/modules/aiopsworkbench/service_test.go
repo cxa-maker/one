@@ -8,13 +8,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/glebarez/sqlite"
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/aiproductimage"
 	"github.com/cxa-maker/one/backend/internal/modules/aiproducttext"
 	"github.com/cxa-maker/one/backend/internal/modules/product"
 	"github.com/cxa-maker/one/backend/internal/modules/productcheck"
 	"github.com/cxa-maker/one/backend/internal/modules/productpublish"
+	"github.com/glebarez/sqlite"
+	"github.com/google/uuid"
 	"gorm.io/datatypes"
 	"gorm.io/gorm"
 )

@@ -6,7 +6,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/aioperationbatch"
 	"github.com/cxa-maker/one/backend/internal/modules/aitask"
 	"github.com/cxa-maker/one/backend/internal/modules/collect"
@@ -19,6 +18,7 @@ import (
 	"github.com/cxa-maker/one/backend/internal/modules/productpublish"
 	"github.com/cxa-maker/one/backend/internal/modules/taskcenter"
 	"github.com/cxa-maker/one/backend/internal/modules/taskcenter/failureclassifier"
+	"github.com/google/uuid"
 	"gorm.io/gorm"
 )
 

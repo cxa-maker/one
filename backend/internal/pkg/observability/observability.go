@@ -6,10 +6,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/cxa-maker/one/backend/internal/pkg/logging"
 	"github.com/cxa-maker/one/backend/internal/pkg/metrics"
 	"github.com/cxa-maker/one/backend/internal/pkg/tracing"
+	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
 
 // Config bundles observability settings.

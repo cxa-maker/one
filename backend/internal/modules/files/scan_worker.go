@@ -14,13 +14,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/config"
 	"github.com/cxa-maker/one/backend/internal/modules/worker"
 	"github.com/cxa-maker/one/backend/internal/pkg/filescanner"
 	"github.com/cxa-maker/one/backend/internal/pkg/repository"
 	"github.com/cxa-maker/one/backend/internal/pkg/tasktenant"
 	"github.com/cxa-maker/one/backend/internal/providers/storage"
+	"github.com/google/uuid"
 )
 
 const fileScanQueueName = "file:security:scan"

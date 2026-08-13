@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/idempotency"
+	"github.com/google/uuid"
 	"gorm.io/gorm"
 )
 

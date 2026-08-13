@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/product"
 	"github.com/cxa-maker/one/backend/internal/modules/productpublish"
 	"github.com/cxa-maker/one/backend/internal/pkg/pagination"
+	"github.com/google/uuid"
 	"gorm.io/gorm"
 )
 

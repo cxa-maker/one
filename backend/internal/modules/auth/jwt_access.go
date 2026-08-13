@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/golang-jwt/jwt/v5"
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/config"
 	"github.com/cxa-maker/one/backend/internal/pkg/authutil"
+	"github.com/golang-jwt/jwt/v5"
+	"github.com/google/uuid"
 )
 
 // AccessClaims is the JWT payload for short-lived access tokens.

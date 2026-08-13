@@ -10,11 +10,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/files"
 	"github.com/cxa-maker/one/backend/internal/modules/product"
 	"github.com/cxa-maker/one/backend/internal/pkg/httppublic"
 	"github.com/cxa-maker/one/backend/internal/providers/storage"
+	"github.com/google/uuid"
 )
 
 func sanitizeStorageObjectKey(raw string) (string, error) {

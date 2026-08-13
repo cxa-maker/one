@@ -7,9 +7,9 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/pkg/imagerender"
 	imgprov "github.com/cxa-maker/one/backend/internal/providers/image"
+	"github.com/google/uuid"
 )
 
 func (s *Service) executeTranslateDeterministic(

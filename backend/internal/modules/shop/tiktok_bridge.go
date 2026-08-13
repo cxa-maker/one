@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/uuid"
 	platformtiktok "github.com/cxa-maker/one/backend/internal/providers/platform/tiktok"
+	"github.com/google/uuid"
 )
 
 // TikTokShopsBridge satisfies platform/tiktok persistence hooks.

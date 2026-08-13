@@ -3,11 +3,11 @@ package settings
 import (
 	"strings"
 
-	"github.com/gin-gonic/gin"
 	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
 	"github.com/cxa-maker/one/backend/internal/pkg/adminperm"
 	"github.com/cxa-maker/one/backend/internal/pkg/response"
 	aigate "github.com/cxa-maker/one/backend/internal/providers/ai"
+	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"
 )
 

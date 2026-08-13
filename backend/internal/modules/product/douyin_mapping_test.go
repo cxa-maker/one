@@ -9,13 +9,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gin-gonic/gin"
-	"github.com/glebarez/sqlite"
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/files"
 	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
 	"github.com/cxa-maker/one/backend/internal/modules/settings"
 	"github.com/cxa-maker/one/backend/internal/modules/shop"
+	"github.com/gin-gonic/gin"
+	"github.com/glebarez/sqlite"
+	"github.com/google/uuid"
 	"gorm.io/datatypes"
 	"gorm.io/gorm"
 )

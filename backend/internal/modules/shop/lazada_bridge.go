@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/uuid"
 	platformlazada "github.com/cxa-maker/one/backend/internal/providers/platform/lazada"
+	"github.com/google/uuid"
 )
 
 // LazadaShopsBridge satisfies platform/lazada persistence hooks.

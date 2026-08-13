@@ -9,8 +9,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gin-gonic/gin"
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/aiproducttext"
 	"github.com/cxa-maker/one/backend/internal/modules/collect"
 	"github.com/cxa-maker/one/backend/internal/modules/customersync"
@@ -20,6 +18,8 @@ import (
 	"github.com/cxa-maker/one/backend/internal/modules/ordersync"
 	"github.com/cxa-maker/one/backend/internal/modules/productpublish"
 	"github.com/cxa-maker/one/backend/internal/pkg/ctxkey"
+	"github.com/gin-gonic/gin"
+	"github.com/google/uuid"
 	"gorm.io/gorm"
 )
 

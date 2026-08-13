@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/redis/go-redis/v9"
 	"github.com/cxa-maker/one/backend/internal/config"
+	"github.com/redis/go-redis/v9"
 )
 
 // Client wraps the go-redis client for cache and future queue workers.

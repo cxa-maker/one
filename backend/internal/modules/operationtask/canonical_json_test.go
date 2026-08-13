@@ -4,8 +4,8 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/stretchr/testify/require"
 	"github.com/cxa-maker/one/backend/internal/modules/operationtask"
+	"github.com/stretchr/testify/require"
 )
 
 func TestComputePayloadHashCanonicalJSON(t *testing.T) {

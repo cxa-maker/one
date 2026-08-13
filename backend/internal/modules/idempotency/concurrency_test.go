@@ -7,10 +7,10 @@ import (
 	"sync/atomic"
 	"testing"
 
+	"github.com/cxa-maker/one/backend/internal/modules/idempotency"
 	"github.com/glebarez/sqlite"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"
-	"github.com/cxa-maker/one/backend/internal/modules/idempotency"
 	"gorm.io/gorm"
 )
 

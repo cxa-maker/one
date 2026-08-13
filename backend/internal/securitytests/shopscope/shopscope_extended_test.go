@@ -3,7 +3,6 @@ package shopscope_test
 import (
 	"testing"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/customerchat"
 	"github.com/cxa-maker/one/backend/internal/modules/exportmod"
 	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
@@ -12,6 +11,7 @@ import (
 	"github.com/cxa-maker/one/backend/internal/modules/productpublish"
 	"github.com/cxa-maker/one/backend/internal/modules/shop"
 	"github.com/cxa-maker/one/backend/internal/pkg/adminperm"
+	"github.com/google/uuid"
 	"gorm.io/gorm"
 )
 

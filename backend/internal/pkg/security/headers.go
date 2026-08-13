@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/gin-gonic/gin"
 	"github.com/cxa-maker/one/backend/internal/config"
+	"github.com/gin-gonic/gin"
 )
 
 // SecurityHeaders applies baseline security response headers.

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
 	"github.com/cxa-maker/one/backend/internal/pkg/imagerender"
+	"github.com/google/uuid"
 )
 
 func (s *Service) logTranslateAudit(ctx context.Context, task *ImageTask, action, status, msg string) {

@@ -5,13 +5,13 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/glebarez/sqlite"
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/customerchat"
 	"github.com/cxa-maker/one/backend/internal/modules/inventory"
 	"github.com/cxa-maker/one/backend/internal/modules/ordersync"
 	"github.com/cxa-maker/one/backend/internal/modules/product"
 	"github.com/cxa-maker/one/backend/internal/modules/shop"
+	"github.com/glebarez/sqlite"
+	"github.com/google/uuid"
 	"gorm.io/gorm"
 )
 

@@ -5,8 +5,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/gin-gonic/gin"
 	"github.com/cxa-maker/one/backend/internal/config"
+	"github.com/gin-gonic/gin"
 )
 
 func TestCORS_allowedOrigin(t *testing.T) {

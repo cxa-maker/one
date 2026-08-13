@@ -3,9 +3,9 @@ package worker
 import (
 	"net/http"
 
-	"github.com/gin-gonic/gin"
 	"github.com/cxa-maker/one/backend/internal/config"
 	"github.com/cxa-maker/one/backend/internal/pkg/response"
+	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"
 )
 

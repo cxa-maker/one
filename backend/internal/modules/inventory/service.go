@@ -8,7 +8,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/idempotency"
 	"github.com/cxa-maker/one/backend/internal/modules/operationlog"
 	"github.com/cxa-maker/one/backend/internal/modules/settings"
@@ -17,6 +16,7 @@ import (
 	"github.com/cxa-maker/one/backend/internal/pkg/metrics"
 	platformp "github.com/cxa-maker/one/backend/internal/providers/platform"
 	"github.com/cxa-maker/one/backend/internal/rdb"
+	"github.com/google/uuid"
 	"gorm.io/datatypes"
 	"gorm.io/gorm"
 )

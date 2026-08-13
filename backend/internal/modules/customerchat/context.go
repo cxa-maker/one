@@ -3,10 +3,10 @@ package customerchat
 import (
 	"strings"
 
-	"github.com/gin-gonic/gin"
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/modules/order"
 	"github.com/cxa-maker/one/backend/internal/modules/product"
+	"github.com/gin-gonic/gin"
+	"github.com/google/uuid"
 )
 
 // ContextSummary is a safe, user-visible AI context digest (no raw platform data).

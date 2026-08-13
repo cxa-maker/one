@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gin-gonic/gin"
 	"github.com/cxa-maker/one/backend/internal/modules/settings"
 	"github.com/cxa-maker/one/backend/internal/providers/storage/localroot"
+	"github.com/gin-gonic/gin"
 )
 
 // StaticHandler serves uploaded local files from configured storage.local_root.

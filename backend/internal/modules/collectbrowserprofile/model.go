@@ -3,8 +3,8 @@ package collectbrowserprofile
 import (
 	"time"
 
-	"github.com/google/uuid"
 	"github.com/cxa-maker/one/backend/internal/pkg/model"
+	"github.com/google/uuid"
 )
 
 const StatusActive = "active"

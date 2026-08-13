@@ -1,8 +1,8 @@
 package adminperm
 
 import (
-	"github.com/gin-gonic/gin"
 	"github.com/cxa-maker/one/backend/internal/pkg/ctxkey"
+	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"
 )
 
